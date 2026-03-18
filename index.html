@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PelotonLive — Where to watch pro cycling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Space+Mono:wght@400;700&family=Crimson+Pro:ital@1&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background: #0c0d12; color: #f5f0e8; font-family: 'Space Mono', monospace; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #0c0d12; }
+    ::-webkit-scrollbar-thumb { background: #2a2d3a; border-radius: 3px; }
+
+    @keyframes pulse {
+      0%   { box-shadow: 0 0 0 0 rgba(239,68,68,0.5); }
+      70%  { box-shadow: 0 0 0 8px rgba(239,68,68,0); }
+      100% { box-shadow: 0 0 0 0 rgba(239,68,68,0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── Layout ── */
+    header { border-bottom: 1px solid #1e2028; padding: 0 clamp(16px,5vw,60px); }
+    .header-inner { max-width: 900px; margin: 0 auto; padding: 20px 0;
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    main { max-width: 900px; margin: 0 auto; padding: 40px clamp(16px,5vw,60px) 80px; }
+    footer { border-top: 1px solid #1e2028; padding: 24px clamp(16px,5vw,60px);
+      color: #444; font-size: 11px; }
+    .footer-inner { max-width: 900px; margin: 0 auto;
+      display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+
+    /* ── Typography ── */
+    .logo { font-family: 'Playfair Display', serif; font-weight: 900; font-size: clamp(20px,4vw,28px);
+      color: #f5f0e8; letter-spacing: -0.02em; }
+    .logo span { color: #c8f23a; }
+    .logo-sub { color: #444; font-size: 11px; }
+    .date-label { color: #c8f23a; font-size: 11px; font-weight: 700; }
+    .date-sub { color: #555; font-size: 10px; }
+
+    /* ── Section headers ── */
+    .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+    .section-title { font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
+      color: #888; text-transform: uppercase; white-space: nowrap; }
+    .section-line { flex: 1; height: 1px; background: #1e2028; }
+    section { margin-bottom: 56px; }
+
+    /* ── Live pulse ── */
+    .live-dot { width: 8px; height: 8px; border-radius: 50%; background: #ef4444;
+      display: inline-block; animation: pulse 1.5s infinite; flex-shrink: 0; }
+    .live-label { color: #ef4444; font-size: 10px; font-weight: 700; letter-spacing: 0.1em; }
+    .live-badge { display: inline-flex; align-items: center; gap: 6px; }
+
+    /* ── Race Card ── */
+    .race-card { background: #16181f; border: 1px solid #2a2d3a; border-radius: 12px;
+      overflow: hidden; margin-bottom: 24px; transition: border-color 0.2s;
+      animation: fadeIn 0.3s ease both; }
+    .race-card:hover { border-color: #c8f23a55; }
+    .race-header { padding: 24px 28px 20px; border-bottom: 1px solid #2a2d3a; }
+    .race-header-row { display: flex; justify-content: space-between;
+      align-items: flex-start; flex-wrap: wrap; gap: 12px; margin-bottom: 6px; }
+    .race-meta { color: #666; font-size: 11px; margin-bottom: 6px; }
+    .race-name { font-family: 'Playfair Display', serif; font-weight: 900;
+      font-size: clamp(22px,4vw,32px); color: #f5f0e8; letter-spacing: -0.01em; line-height: 1.1; }
+    .race-route { color: #888; font-size: 13px; margin-top: 8px; }
+    .race-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+    .tags { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+    .race-times { color: #555; font-size: 11px; margin-top: 4px; }
+    .race-desc { margin: 14px 0; color: #9a9aaa; font-size: 14px; line-height: 1.6;
+      font-family: 'Crimson Pro', serif; font-style: italic; max-width: 680px; }
+    .favourites { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 14px; }
+    .fav-label { color: #777; font-size: 12px; }
+    .fav-chip { color: #c8f23a; font-size: 12px; background: #1e2410;
+      padding: 2px 8px; border-radius: 4px; border: 1px solid #c8f23a22; }
+
+    /* ── Terrain tags ── */
+    .tag { font-size: 10px; font-weight: 700; letter-spacing: 0.08em;
+      padding: 2px 8px; border-radius: 3px; text-transform: uppercase; }
+    .tag-Climbing  { background:#1a3a2a; color:#4ade80; border:1px solid #4ade8033; }
+    .tag-Puncheur  { background:#2a2a1a; color:#facc15; border:1px solid #facc1533; }
+    .tag-Cobbles   { background:#2a1a1a; color:#f87171; border:1px solid #f8717133; }
+    .tag-Sprinter  { background:#1a1a3a; color:#818cf8; border:1px solid #818cf833; }
+    .tag-Gravel    { background:#2a1f0f; color:#fb923c; border:1px solid #fb923c33; }
+    .tag-Classics  { background:#1f1a2a; color:#c084fc; border:1px solid #c084fc33; }
+    .tag-ITT       { background:#0f2a2a; color:#22d3ee; border:1px solid #22d3ee33; }
+    .tag-TTT       { background:#2a0f2a; color:#e879f9; border:1px solid #e879f933; }
+
+    /* ── Card actions ── */
+    .card-actions { display: flex; }
+    .card-btn { flex: 1; padding: 12px 20px; font-size: 12px; font-family: 'Space Mono', monospace;
+      font-weight: 700; letter-spacing: 0.06em; background: transparent;
+      border: none; cursor: pointer; display: flex; align-items: center; gap: 8px;
+      transition: background 0.15s, color 0.15s; text-decoration: none; }
+    .card-btn-pcs { color: #c8f23a; border-right: 1px solid #2a2d3a; }
+    .card-btn-pcs:hover { background: #1e2410; }
+    .card-btn-watch { color: #888; }
+    .card-btn-watch.open { color: #c8f23a; background: #1e2410; }
+    .card-btn-watch:hover { background: #1e2410; color: #c8f23a; }
+
+    /* ── Broadcast table ── */
+    .broadcast-panel { border-top: 1px solid #2a2d3a; }
+    .broadcast-table { width: 100%; border-collapse: collapse; }
+    .broadcast-table th { padding: 10px 16px; text-align: left; color: #555;
+      font-size: 10px; letter-spacing: 0.1em; font-weight: 700; text-transform: uppercase;
+      background: #0f1117; border-bottom: 1px solid #2a2d3a; }
+    .broadcast-table td { padding: 11px 16px; border-bottom: 1px solid #1e2028;
+      font-size: 13px; color: #d0d0e0; transition: background 0.1s; }
+    .broadcast-table tr:hover td { background: #1a1c24; }
+    .broadcast-table tr:last-child td { border-bottom: none; }
+    .badge-free { color: #4ade80; font-size: 11px; font-weight: 700; background: #0f2a1a;
+      padding: 2px 8px; border-radius: 3px; border: 1px solid #4ade8033; }
+    .badge-sub  { color: #888; font-size: 11px; background: #1a1a1a;
+      padding: 2px 8px; border-radius: 3px; border: 1px solid #33333360; }
+    .time-cell { color: #c8f23a; font-size: 12px; }
+    .watch-link { color: #7b8cde; font-size: 12px; text-decoration: none; transition: color 0.15s; }
+    .watch-link:hover { color: #c8f23a; }
+    .no-link { color: #444; font-size: 12px; }
+    .broadcast-footer { padding: 10px 16px; background: #0f1117;
+      color: #555; font-size: 11px; }
+
+    /* ── Archive / Upcoming cards ── */
+    .compact-card { background: #13141a; border: 1px solid #222430; border-radius: 10px;
+      padding: 16px 20px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap; transition: border-color 0.2s; margin-bottom: 10px; }
+    .compact-card:hover { border-color: #3a3d50; }
+    .compact-flag { font-size: 20px; flex-shrink: 0; }
+    .compact-body { flex: 1; min-width: 140px; }
+    .compact-date { color: #888; font-size: 10px; margin-bottom: 3px; }
+    .compact-name { color: #c0c0d0; font-size: 15px; font-family: 'Playfair Display', serif; font-weight: 700; }
+    .compact-tags { display: flex; gap: 4px; margin-top: 5px; flex-wrap: wrap; }
+    .compact-right { text-align: right; }
+    .winner-label { color: #555; font-size: 10px; margin-bottom: 2px; }
+    .winner-name  { color: #c8f23a; font-size: 13px; font-weight: 700; }
+    .winner-team  { color: #555; font-size: 11px; }
+    .countdown { color: #c8f23a; font-size: 22px; font-weight: 700; line-height: 1; }
+    .countdown-sub { color: #555; font-size: 10px; }
+    .pcs-btn { color: #444; font-size: 11px; text-decoration: none;
+      padding: 6px 12px; border: 1px solid #2a2d3a; border-radius: 6px; white-space: nowrap;
+      transition: color 0.15s, border-color 0.15s; }
+    .pcs-btn:hover { color: #c8f23a; border-color: #c8f23a44; }
+
+    /* ── Archive toggle ── */
+    .archive-toggle { display: flex; align-items: center; gap: 12px; width: 100%;
+      background: none; border: none; cursor: pointer; padding: 0; margin-bottom: 0; }
+    .archive-title { font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
+      color: #555; text-transform: uppercase; white-space: nowrap; }
+
+    /* ── Empty / loading states ── */
+    .state-box { text-align: center; padding: 60px 20px; color: #555; }
+    .state-box h3 { font-family: 'Playfair Display', serif; font-size: 22px;
+      color: #888; margin-bottom: 10px; }
+    .state-box p { font-size: 12px; line-height: 1.8; }
+    .spinner { width: 32px; height: 32px; border: 2px solid #2a2d3a;
+      border-top-color: #c8f23a; border-radius: 50%; animation: spin 0.8s linear infinite;
+      margin: 0 auto 20px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Validation banner ── */
+    .validation-banner { border: 1px solid #f87171; background: #2a1a1a; border-radius: 8px;
+      padding: 12px 16px; margin-bottom: 24px; font-size: 12px; color: #f87171; }
+    .validation-banner h4 { margin-bottom: 6px; font-weight: 700; }
+    .validation-banner ul { padding-left: 16px; }
+    .validation-banner li { margin-bottom: 2px; }
+
+    @media (max-width: 600px) {
+      .race-header-row { flex-direction: column; }
+      .race-right { align-items: flex-start; }
+      .broadcast-table th:nth-child(4), .broadcast-table td:nth-child(4) { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div>
+      <div class="logo">Peloton<span>Live</span></div>
+      <div class="logo-sub">/ where to watch pro cycling</div>
+    </div>
+    <div style="text-align:right">
+      <div class="date-label" id="today-label">Loading...</div>
+      <div class="date-sub" id="race-count"></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div id="validation-area"></div>
+  <section id="today-section">
+    <div class="section-header">
+      <div class="live-badge"><div class="live-dot"></div><span class="live-label">LIVE</span></div>
+      <div class="section-title">Today's Races</div>
+      <div class="section-line"></div>
+    </div>
+    <div id="today-races"><div class="state-box"><div class="spinner"></div><p>Loading race data…</p></div></div>
+  </section>
+
+  <section id="upcoming-section">
+    <div class="section-header">
+      <div class="section-title">Upcoming</div>
+      <div class="section-line"></div>
+    </div>
+    <div id="upcoming-races"></div>
+  </section>
+
+  <section id="archive-section">
+    <button class="archive-toggle" onclick="toggleArchive()">
+      <div class="archive-title" id="archive-title">▶ &nbsp;Archive</div>
+      <div class="section-line"></div>
+    </button>
+    <div id="archive-races" style="display:none; margin-top:16px;"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>PelotonLive · Updated daily · Broadcast info sourced from official race sites</span>
+    <span>Race data via <a href="https://www.procyclingstats.com" target="_blank"
+      style="color:#555;text-decoration:none">ProCyclingStats ↗</a></span>
+  </div>
+</footer>
+
+<script>
+// ─── State ───────────────────────────────────────────────────────────────────
+let archiveOpen = false;
+const openCards = new Set();
+
+// ─── Data loading ─────────────────────────────────────────────────────────────
+async function loadData() {
+  let racesData = null, archiveData = [];
+  try {
+    const r = await fetch('races.json?v=' + Date.now());
+    racesData = await r.json();
+  } catch(e) {
+    document.getElementById('today-races').innerHTML = `
+      <div class="state-box">
+        <h3>No race data found</h3>
+        <p>Add a <code>races.json</code> file to this directory.<br>
+        See the setup guide for instructions.</p>
+      </div>`;
+    document.getElementById('today-label').textContent = 'PelotonLive';
+    return;
+  }
+  try {
+    const r = await fetch('archive.json?v=' + Date.now());
+    archiveData = await r.json();
+  } catch(e) { /* archive is optional */ }
+
+  render(racesData, archiveData);
+}
+
+// ─── Render ───────────────────────────────────────────────────────────────────
+function render(data, archive) {
+  const today = data.date;
+  const races  = data.races || [];
+  const todayRaces    = races.filter(r => r.date === today);
+  const upcomingRaces = races.filter(r => r.date > today);
+
+  // Header
+  const d = new Date(today + 'T12:00:00Z');
+  document.getElementById('today-label').textContent =
+    d.toLocaleDateString('en-GB', { weekday:'short', day:'numeric', month:'long', year:'numeric' }).toUpperCase();
+  document.getElementById('race-count').textContent =
+    todayRaces.length + ' race' + (todayRaces.length !== 1 ? 's' : '') + ' today';
+
+  // Validation banner
+  const val = data.validation;
+  if (val && val.status !== 'valid' && val.issues?.length) {
+    document.getElementById('validation-area').innerHTML = `
+      <div class="validation-banner">
+        <h4>⚠ Data quality warnings</h4>
+        <ul>${val.issues.map(i => `<li>${i}</li>`).join('')}</ul>
+      </div>`;
+  }
+
+  // Today
+  const todayEl = document.getElementById('today-races');
+  if (!todayRaces.length) {
+    todayEl.innerHTML = `<div class="state-box"><h3>No races today</h3><p>Check back tomorrow.</p></div>`;
+  } else {
+    todayEl.innerHTML = todayRaces.map(raceCard).join('');
+  }
+
+  // Upcoming
+  const upEl = document.getElementById('upcoming-races');
+  upEl.innerHTML = upcomingRaces.length
+    ? upcomingRaces.map(upcomingCard).join('')
+    : '<div style="color:#555;font-size:12px">No upcoming races in current data.</div>';
+
+  // Archive
+  const archEl = document.getElementById('archive-races');
+  const archTitle = document.getElementById('archive-title');
+  const combined = [...(archive || [])].sort((a,b) => b.date.localeCompare(a.date));
+  archTitle.textContent = `▶ \u00a0Archive (${combined.length} results)`;
+  archEl.innerHTML = combined.length
+    ? combined.map(archiveCard).join('')
+    : '<div style="color:#555;font-size:12px">No archived races yet.</div>';
+}
+
+// ─── Card builders ────────────────────────────────────────────────────────────
+function terrainTags(arr) {
+  return (arr||[]).map(t => `<span class="tag tag-${t}">${t}</span>`).join('');
+}
+
+function raceCard(race) {
+  const id = race.id || race.name;
+  const freeCount = (race.broadcasts||[]).filter(b=>b.free).length;
+  return `
+  <div class="race-card" id="card-${id}">
+    <div class="race-header">
+      <div class="race-header-row">
+        <div>
+          <div class="race-meta">
+            ${race.status==='live'?'<span class="live-badge"><span class="live-dot"></span><span class="live-label">LIVE</span></span> · ':''}
+            ${race.edition||''} ${race.edition?'·':''} ${race.category||''} · ${race.country_flag||''}
+          </div>
+          <div class="race-name">${race.name}</div>
+          <div class="race-route">
+            ${[race.start_town, race.finish_town].filter(Boolean).join(' → ')}
+            ${race.distance_km ? '&nbsp;·&nbsp; '+race.distance_km+' km' : ''}
+            ${race.finish_type ? '&nbsp;·&nbsp; '+race.finish_type : ''}
+          </div>
+        </div>
+        <div class="race-right">
+          <div class="tags">${terrainTags(race.terrain)}</div>
+          <div class="race-times">
+            ${race.start_time_local ? 'Start '+race.start_time_local : ''}
+            ${race.finish_time_local ? ' &nbsp;|&nbsp; Finish '+race.finish_time_local : ''}
+          </div>
+        </div>
+      </div>
+      ${race.description ? `<div class="race-desc">${race.description}</div>` : ''}
+      ${(race.favourite_riders||[]).length ? `
+        <div class="favourites">
+          <span class="fav-label">Favourites:</span>
+          ${race.favourite_riders.map(r=>`<span class="fav-chip">${r}</span>`).join('')}
+        </div>` : ''}
+    </div>
+    <div class="card-actions" style="border-bottom: ${(race.broadcasts||[]).length?'none':'0'}">
+      <a href="${race.pcs_url||'#'}" target="_blank" rel="noopener" class="card-btn card-btn-pcs">
+        ↗ PROCYCLINGSTATS
+      </a>
+      <button class="card-btn card-btn-watch" id="watch-btn-${id}"
+        onclick="toggleBroadcasts('${id}')">
+        ▼ WHERE TO WATCH (${freeCount} FREE)
+      </button>
+    </div>
+    <div class="broadcast-panel" id="broadcasts-${id}" style="display:none">
+      ${broadcastTable(race.broadcasts||[])}
+    </div>
+  </div>`;
+}
+
+function broadcastTable(broadcasts) {
+  if (!broadcasts.length) return `
+    <div class="state-box" style="padding:30px">
+      <p>No broadcast information found for this race.</p>
+    </div>`;
+  const hasFree = broadcasts.some(b=>b.free);
+  return `
+    <table class="broadcast-table">
+      <thead>
+        <tr>
+          <th>Region</th><th>Platform</th><th>Access</th>
+          <th>GMT Start</th><th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${broadcasts.map(b=>`
+          <tr>
+            <td style="white-space:nowrap">${b.region||''}</td>
+            <td>${b.platform||''}</td>
+            <td>${b.free
+              ? '<span class="badge-free">FREE</span>'
+              : '<span class="badge-sub">SUB</span>'}</td>
+            <td class="time-cell">${b.start_time_gmt||'—'}</td>
+            <td>${b.stream_url
+              ? `<a href="${b.stream_url}" target="_blank" rel="noopener" class="watch-link">Watch →</a>`
+              : '<span class="no-link">—</span>'}</td>
+          </tr>`).join('')}
+      </tbody>
+    </table>
+    ${hasFree ? `<div class="broadcast-footer">⚡ Free streams may be geo-restricted — a VPN may be required outside the listed country.</div>` : ''}`;
+}
+
+function archiveCard(race) {
+  return `
+  <div class="compact-card">
+    <span class="compact-flag">${race.country_flag||'🏁'}</span>
+    <div class="compact-body">
+      <div class="compact-date">${race.date}</div>
+      <div class="compact-name">${race.name}</div>
+      <div class="compact-tags">${terrainTags(race.terrain)}</div>
+    </div>
+    ${race.winner ? `
+    <div class="compact-right">
+      <div class="winner-label">WINNER</div>
+      <div class="winner-name">${race.winner}</div>
+      <div class="winner-team">${race.winner_team||''}</div>
+    </div>` : ''}
+    <a href="${race.pcs_url||'#'}" target="_blank" rel="noopener" class="pcs-btn">PCS ↗</a>
+  </div>`;
+}
+
+function upcomingCard(race) {
+  const days = Math.ceil((new Date(race.date) - new Date()) / 86400000);
+  return `
+  <div class="compact-card">
+    <span class="compact-flag">${race.country_flag||'🏁'}</span>
+    <div class="compact-body">
+      <div class="compact-date">${race.date}</div>
+      <div class="compact-name">${race.name}</div>
+      <div class="compact-tags">${terrainTags(race.terrain)}</div>
+    </div>
+    <div class="compact-right">
+      <div class="countdown">${days===1?'TMW':'+'+days+'d'}</div>
+      <div class="countdown-sub">days away</div>
+    </div>
+    <a href="${race.pcs_url||'#'}" target="_blank" rel="noopener" class="pcs-btn">PCS ↗</a>
+  </div>`;
+}
+
+// ─── Interactions ─────────────────────────────────────────────────────────────
+function toggleBroadcasts(id) {
+  const panel = document.getElementById('broadcasts-'+id);
+  const btn   = document.getElementById('watch-btn-'+id);
+  if (!panel) return;
+  const isOpen = panel.style.display !== 'none';
+  panel.style.display = isOpen ? 'none' : 'block';
+  btn.textContent = (isOpen ? '▼' : '▲') + ' WHERE TO WATCH';
+  btn.classList.toggle('open', !isOpen);
+}
+
+function toggleArchive() {
+  archiveOpen = !archiveOpen;
+  document.getElementById('archive-races').style.display = archiveOpen ? 'block' : 'none';
+  const title = document.getElementById('archive-title');
+  title.textContent = title.textContent.replace(archiveOpen ? '▶' : '▲', archiveOpen ? '▲' : '▶');
+}
+
+// ─── Boot ─────────────────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>
