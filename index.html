@@ -116,6 +116,8 @@
     .badge-sub  { color: #888; font-size: 11px; background: #1a1a1a;
       padding: 2px 8px; border-radius: 3px; border: 1px solid #33333360; }
     .time-cell { color: #c8f23a; font-size: 12px; }
+    .platform-link { color: #d0d0e0; text-decoration: none; border-bottom: 1px solid #444; transition: color 0.15s, border-color 0.15s; }
+    .platform-link:hover { color: #c8f23a; border-color: #c8f23a; }
     .watch-link { color: #7b8cde; font-size: 12px; text-decoration: none; transition: color 0.15s; }
     .watch-link:hover { color: #c8f23a; }
     .no-link { color: #444; font-size: 12px; }
@@ -170,6 +172,7 @@
       .race-header-row { flex-direction: column; }
       .race-right { align-items: flex-start; }
       .broadcast-table th:nth-child(4), .broadcast-table td:nth-child(4) { display: none; }
+      .broadcast-table th:nth-child(5), .broadcast-table td:nth-child(5) { display: none; }
     }
   </style>
 </head>
@@ -373,7 +376,9 @@ function broadcastTable(broadcasts) {
         ${broadcasts.map(b=>`
           <tr>
             <td style="white-space:nowrap">${b.region||''}</td>
-            <td>${b.platform||''}</td>
+            <td>${b.stream_url
+              ? `<a href="${b.stream_url}" target="_blank" rel="noopener" class="platform-link">${b.platform||''}</a>`
+              : (b.platform||'')}</td>
             <td>${b.free
               ? '<span class="badge-free">FREE</span>'
               : '<span class="badge-sub">SUB</span>'}</td>
