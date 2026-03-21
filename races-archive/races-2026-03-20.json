@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-03-20T11:00:00Z",
+  "date": "2026-03-20",
+  "races": [
+    {
+      "id": "bredene-koksijde-classic-2026",
+      "name": "Bredene Koksijde Classic",
+      "date": "2026-03-20",
+      "status": "upcoming",
+      "edition": "23rd",
+      "category": "1.Pro",
+      "gender": "men",
+      "race_type": "one-day",
+      "stage_number": null,
+      "stage_race_name": null,
+      "country": "BE",
+      "country_flag": "🇧🇪",
+      "distance_km": 203.4,
+      "terrain": ["Puncheur", "Cobbles", "Classics"],
+      "start_town": "Bredene",
+      "finish_town": "Koksijde",
+      "finish_type": "Sprint",
+      "start_time_local": "12:21 CET",
+      "start_time_utc": "11:21",
+      "finish_time_local": "16:46 CET",
+      "description": "Known as the 'mini Gent-Wevelgem', this 203km Belgian coastal classic features mid-race Kemmelberg ascents and treacherous De Moeren wind sectors before a three-lap finishing circuit in Koksijde — the last sprint test before tomorrow's Milano-Sanremo.",
+      "favourite_riders": [
+        "Tim Torn Teutenberg",
+        "Juan Sebastián Molano",
+        "Dylan Groenewegen",
+        "Alberto Dainese",
+        "Fabio Jakobsen"
+      ],
+      "pcs_url": "https://www.procyclingstats.com/race/bredene-koksijde-classic/2026",
+      "official_site": "https://bredenekoksijdeclassic.be/",
+      "broadcasts": [
+        {
+          "region": "🇧🇪 Belgium (Dutch)",
+          "region_code": "BE",
+          "platform": "VRT 1 / Sporza",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "13:45",
+          "stream_url": "https://www.sporza.be",
+          "notes": "Free to air in Belgium. VRT Max also streams online.",
+          "source_url": "https://www.total-velo.com/bredene-koksijde-classic-2026-parcours-engages-tv/"
+        },
+        {
+          "region": "🇧🇪 Belgium (French)",
+          "region_code": "BE",
+          "platform": "Tipik / Auvio (RTBF)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "13:30",
+          "stream_url": "https://auvio.rtbf.be",
+          "notes": "Free to air for French-speaking Belgium.",
+          "source_url": "https://www.total-velo.com/bredene-koksijde-classic-2026-parcours-engages-tv/"
+        },
+        {
+          "region": "🇬🇧 UK & Ireland",
+          "region_code": "GB",
+          "platform": "TNT Sports / Discovery+",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "13:30",
+          "stream_url": "https://www.discoveryplus.com/gb",
+          "notes": "Discovery+ subscription ~£30.99/month. TNT Sports also broadcasts on TV.",
+          "source_url": "https://www.domestiquecycling.com/en/news/how-to-watch-the-2026-bredene-koksijde-classic-streaming-and-tv-by-country/"
+        },
+        {
+          "region": "🇺🇸 USA",
+          "region_code": "US",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "13:30",
+          "stream_url": "https://www.flobikes.com/events/15255406-2026-bredene-koksijde-classic",
+          "notes": "FloBikes subscription required. Monthly ~$39.99 or annual ~$203.88.",
+          "source_url": "https://www.flobikes.com/events/15255406-2026-bredene-koksijde-classic"
+        },
+        {
+          "region": "🇨🇦 Canada",
+          "region_code": "CA",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "13:30",
+          "stream_url": "https://www.flobikes.com/events/15255406-2026-bredene-koksijde-classic",
+          "notes": "FloBikes subscription required.",
+          "source_url": "https://www.domestiquecycling.com/en/news/how-to-watch-the-2026-bredene-koksijde-classic-streaming-and-tv-by-country/"
+        },
+        {
+          "region": "🌍 Europe (pan-European)",
+          "region_code": "EU",
+          "platform": "Eurosport 2 / HBO Max",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "13:30",
+          "stream_url": "https://www.hbomax.com",
+          "notes": "Eurosport 2 broadcast from 14:30 CET; stream via HBO Max or Discovery+ depending on country.",
+          "source_url": "https://www.total-velo.com/bredene-koksijde-classic-2026-parcours-engages-tv/"
+        }
+      ],
+      "data_confidence": {
+        "race_details": "high",
+        "broadcasts": "high",
+        "notes": "Start time, distance and route confirmed via ProCyclingStats and official race website. Broadcast details confirmed via Domestique, TotalVelo, FloBikes and HBO Max listings. Belgian broadcast start times (14:30–14:45 CET) confirmed by two independent French-language sources. No Australian broadcaster identified."
+      }
+    }
+  ],
+  "validation": {
+    "status": "warnings",
+    "issues": [
+      "Bredene Koksijde Classic was initially missed — it is a 1.Pro race and sits just below WorldTour level, which may explain why it did not surface in initial WorldTour-focused calendar searches.",
+      "No Australian broadcaster found for Bredene Koksijde Classic 2026; SBS typically covers larger Belgian classics but this 1.Pro event appears unconfirmed for AU.",
+      "HBO Max stream_url links to the general sports portal rather than a deep-link to today's specific event page as that URL may change on race day; the FloBikes URL is a verified direct event link.",
+      "Finish time of 16:46 CET is an estimate from race organisers based on average speed; actual finish may vary by 15–30 minutes depending on race dynamics."
+    ]
+  }
+}
