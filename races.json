@@ -1,71 +1,60 @@
 {
-  "generated_at": "2026-03-21T09:00:00Z",
-  "date": "2026-03-21",
+  "generated_at": "2026-03-23T11:00:00Z",
+  "date": "2026-03-23",
   "races": [
     {
-      "id": "milano-sanremo-2026",
-      "name": "Milano-Sanremo",
-      "date": "2026-03-21",
+      "id": "volta-a-catalunya-2026-stage-1",
+      "name": "Volta Ciclista a Catalunya – Stage 1",
+      "date": "2026-03-23",
       "status": "upcoming",
-      "edition": "117th",
+      "edition": "105th",
       "category": "WT",
       "gender": "men",
-      "race_type": "one-day",
-      "stage_number": null,
-      "stage_race_name": null,
-      "country": "IT",
-      "country_flag": "🇮🇹",
-      "distance_km": 298,
-      "terrain": ["Classics", "Puncheur"],
-      "start_town": "Pavia",
-      "finish_town": "San Remo",
+      "race_type": "stage",
+      "stage_number": 1,
+      "stage_race_name": "Volta Ciclista a Catalunya",
+      "country": "ES",
+      "country_flag": "🇪🇸",
+      "distance_km": 172.7,
+      "terrain": ["Climbing", "Puncheur"],
+      "start_town": "Sant Feliu de Guíxols",
+      "finish_town": "Sant Feliu de Guíxols",
       "finish_type": "Uphill sprint",
-      "start_time_local": "10:15 CET",
-      "start_time_utc": "09:15",
-      "finish_time_local": "16:40 CET",
-      "description": "La Primavera: the longest Monument on the calendar at 298km sees defending two-time champion Mathieu van der Poel face his first head-to-head with Tadej Pogačar of 2026, with the Cipressa and Poggio di Sanremo shaping a finale that could suit an attacker or a reduced sprint on the Via Roma.",
+      "start_time_local": "12:50 CET",
+      "start_time_utc": "11:50",
+      "finish_time_local": "17:00 CET",
+      "description": "The 105th Volta a Catalunya opens with a deceptively punchy circuit around the Costa Brava — the race's fifth consecutive Grand Départ in Sant Feliu — featuring a category 1 mid-race climb and a notoriously twisting, technical final 23km that ramps to ~5% in the last 500m, making positioning and an explosive finish crucial for GC men and opportunists alike.",
       "favourite_riders": [
-        "Mathieu van der Poel",
-        "Tadej Pogačar",
-        "Filippo Ganna",
-        "Wout van Aert",
-        "Tom Pidcock"
+        "Remco Evenepoel",
+        "Tom Pidcock",
+        "Jonas Vingegaard",
+        "João Almeida",
+        "Dorian Godon"
       ],
-      "pcs_url": "https://www.procyclingstats.com/race/milano-sanremo/2026",
-      "official_site": "https://www.milanosanremo.it/en/",
+      "pcs_url": "https://www.procyclingstats.com/race/volta-a-catalunya/2026/stage-1",
+      "official_site": "https://www.voltacatalunya.cat/en/stage-1",
       "broadcasts": [
-        {
-          "region": "🇮🇹 Italy",
-          "region_code": "IT",
-          "platform": "RAI Sport HD / RAI 2 / RaiPlay",
-          "free": true,
-          "geo_restricted": true,
-          "start_time_gmt": "08:50",
-          "stream_url": "https://www.raiplay.it/dirette/",
-          "notes": "RAI Sport HD covers from 09:50 CET to 14:00 CET; RAI 2 takes over from 14:00 CET. RaiPlay streams free online. Geo-restricted to Italy but often accessible internationally.",
-          "source_url": "https://www.milanosanremo.it/en/news/milano-sanremo-2026-route-schedule-and-tv-coverage/"
-        },
         {
           "region": "🇬🇧 UK & Ireland",
           "region_code": "GB",
           "platform": "TNT Sports / Discovery+",
           "free": false,
           "geo_restricted": true,
-          "start_time_gmt": "08:30",
+          "start_time_gmt": "13:00",
           "stream_url": "https://www.discoveryplus.com/gb",
-          "notes": "Men's race coverage from 08:30 GMT on TNT Sports 4; women's race from 11:30 GMT. Discovery+ subscription ~£30.99/month. Note: HBO Max replaces Discovery+ in UK from 26 March.",
-          "source_url": "https://www.tntsports.co.uk/cycling/milano-sanremo/2026/how-to-watch-live-stream-uk-tadej-pogacar-mathieu-van-der-poel-tom-pidcock-wout-van-aert-demi-vollering-lorena-wiebes_sto23281548/story.shtml"
+          "notes": "Stages 1–3 stream on Discovery+; from Stage 4 (March 26) coverage moves to HBO Max. TNT Sports TV channels remain the same throughout. Discovery+ subscription ~£30.99/month; new Saver Plan on HBO Max from £25.99/month (12-month term).",
+          "source_url": "https://www.cyclist.co.uk/in-depth/volta-a-catalunya-preview"
         },
         {
           "region": "🇺🇸 USA",
           "region_code": "US",
-          "platform": "HBO Max",
+          "platform": "Peacock",
           "free": false,
           "geo_restricted": true,
-          "start_time_gmt": "09:00",
-          "stream_url": "https://www.hbomax.com/sports",
-          "notes": "HBO Max Sports add-on required. Plans from $18.49/month.",
-          "source_url": "https://www.cyclingnews.com/news/streaming/watch-milan-san-remo-2026-live-streams/"
+          "start_time_gmt": "11:50",
+          "stream_url": "https://www.peacocktv.com/sports/cycling",
+          "notes": "Volta a Catalunya is an ASO race, exclusive to Peacock in the US. Premium plan $10.99/month or $109.99/year. Premium Plus (no ads) $16.99/month.",
+          "source_url": "https://www.domestiquecycling.com/en/news/how-to-watch-the-2026-volta-a-catalunya-streaming-and-tv-by-country/"
         },
         {
           "region": "🇨🇦 Canada",
@@ -73,10 +62,10 @@
           "platform": "FloBikes",
           "free": false,
           "geo_restricted": true,
-          "start_time_gmt": "09:00",
-          "stream_url": "https://www.flobikes.com",
+          "start_time_gmt": "11:50",
+          "stream_url": "https://www.flobikes.com/events/14817644-2026-volta-ciclista-a-catalunya",
           "notes": "FloBikes subscription required. ~CAN$39.99/month or CAN$203.88/year.",
-          "source_url": "https://www.cyclingnews.com/news/streaming/watch-milan-san-remo-2026-live-streams/"
+          "source_url": "https://www.flobikes.com/events/14817644-2026-volta-ciclista-a-catalunya"
         },
         {
           "region": "🇦🇺 Australia",
@@ -84,43 +73,54 @@
           "platform": "SBS On Demand",
           "free": true,
           "geo_restricted": true,
-          "start_time_gmt": "09:00",
+          "start_time_gmt": "11:50",
           "stream_url": "https://www.sbs.com.au/ondemand/cycling",
-          "notes": "Free with English commentary. Both men's and women's races covered.",
-          "source_url": "https://www.cyclingnews.com/news/streaming/watch-milan-san-remo-2026-live-streams/"
+          "notes": "Free with English commentary on SBS On Demand.",
+          "source_url": "https://www.cyclist.co.uk/in-depth/volta-a-catalunya-preview"
         },
         {
-          "region": "🇧🇪 Belgium",
-          "region_code": "BE",
-          "platform": "VTM / RTBF (Auvio)",
+          "region": "🇪🇸 Spain",
+          "region_code": "ES",
+          "platform": "RTVE (Teledeporte / RTVE Play)",
           "free": true,
           "geo_restricted": true,
-          "start_time_gmt": "09:00",
-          "stream_url": "https://auvio.rtbf.be",
-          "notes": "VTM for Dutch-speaking; RTBF / Auvio for French-speaking viewers. Both free.",
-          "source_url": "https://www.milanosanremo.it/en/tv-coverage/"
+          "start_time_gmt": "11:50",
+          "stream_url": "https://www.rtve.es/play/",
+          "notes": "Free-to-air on Spanish national public broadcaster. All stages live.",
+          "source_url": "https://www.cyclist.co.uk/in-depth/volta-a-catalunya-preview"
+        },
+        {
+          "region": "🏴󠁥󠁳󠁣󠁴󠁿 Catalonia",
+          "region_code": "ES",
+          "platform": "TVC (Esport3 / 3Cat)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "11:50",
+          "stream_url": "https://www.3cat.cat",
+          "notes": "Free on Catalan public TV via Esport3 and 3Cat streaming.",
+          "source_url": "https://www.cyclist.co.uk/in-depth/volta-a-catalunya-preview"
         },
         {
           "region": "🌍 Europe (pan-European)",
           "region_code": "EU",
-          "platform": "Eurosport / HBO Max / Discovery+",
+          "platform": "Eurosport / Discovery+ / HBO Max",
           "free": false,
           "geo_restricted": false,
-          "start_time_gmt": "09:00",
+          "start_time_gmt": "11:50",
           "stream_url": "https://www.eurosport.com",
-          "notes": "Eurosport 2 carries coverage across 50+ European countries. Also available via Discovery+ or HBO Max depending on country.",
-          "source_url": "https://www.milanosanremo.it/en/tv-coverage/"
+          "notes": "Eurosport carries coverage across 50+ European countries. Stream via Discovery+ or HBO Max depending on country.",
+          "source_url": "https://www.cyclist.co.uk/in-depth/volta-a-catalunya-preview"
         },
         {
-          "region": "🇨🇭 Switzerland",
-          "region_code": "CH",
-          "platform": "SRG",
-          "free": true,
+          "region": "🇩🇰🇳🇴 Denmark & Norway",
+          "region_code": "DK",
+          "platform": "TV2",
+          "free": false,
           "geo_restricted": true,
-          "start_time_gmt": "09:00",
-          "stream_url": "https://www.srgssr.ch",
-          "notes": "Free-to-air via SRG public broadcaster.",
-          "source_url": "https://www.milanosanremo.it/en/tv-coverage/"
+          "start_time_gmt": "11:50",
+          "stream_url": "https://www.tv2.dk",
+          "notes": "TV2 subscription required in Denmark and Norway.",
+          "source_url": "https://www.cyclist.co.uk/in-depth/volta-a-catalunya-preview"
         },
         {
           "region": "🇯🇵 Japan",
@@ -128,209 +128,10 @@
           "platform": "J Sports",
           "free": false,
           "geo_restricted": true,
-          "start_time_gmt": "09:00",
+          "start_time_gmt": "11:50",
           "stream_url": "https://www.jsports.co.jp",
           "notes": "J Sports subscription required.",
-          "source_url": "https://www.milanosanremo.it/en/tv-coverage/"
-        }
-      ],
-      "data_confidence": {
-        "race_details": "high",
-        "broadcasts": "high",
-        "notes": "Start time from official race website (10:15 CET); various sources cite 10:00–10:15 CET so using official site value. Finish estimate 16:40 CET from official site. Broadcast details confirmed via official race TV coverage page, Cyclingnews, TNT Sports, and Velo/Outside."
-      }
-    },
-    {
-      "id": "sanremo-women-2026",
-      "name": "Sanremo Women presented by Crédit Agricole",
-      "date": "2026-03-21",
-      "status": "upcoming",
-      "edition": "2nd",
-      "category": "WT",
-      "gender": "women",
-      "race_type": "one-day",
-      "stage_number": null,
-      "stage_race_name": null,
-      "country": "IT",
-      "country_flag": "🇮🇹",
-      "distance_km": 156,
-      "terrain": ["Classics", "Puncheur"],
-      "start_town": "Genova",
-      "finish_town": "San Remo",
-      "finish_type": "Uphill sprint",
-      "start_time_local": "10:35 CET",
-      "start_time_utc": "09:35",
-      "finish_time_local": "14:20 CET",
-      "description": "Only in its second revival edition after a 20-year absence, the Sanremo Women follows the final 156km of the men's course — including the Cipressa and Poggio — with defending champion Lorena Wiebes the heavy favourite after last-minute withdrawals of Marianne Vos and Elisa Longo Borghini.",
-      "favourite_riders": [
-        "Lorena Wiebes",
-        "Kim Le Court",
-        "Lotte Kopecky",
-        "Katarzyna Niewiadoma",
-        "Elisa Balsamo"
-      ],
-      "pcs_url": "https://www.procyclingstats.com/race/sanremo-women/2026",
-      "official_site": "https://www.milanosanremo.it/en/",
-      "broadcasts": [
-        {
-          "region": "🇮🇹 Italy",
-          "region_code": "IT",
-          "platform": "RAI / RaiPlay / HBO Max / Discovery+",
-          "free": true,
-          "geo_restricted": true,
-          "start_time_gmt": "09:15",
-          "stream_url": "https://www.raiplay.it/dirette/",
-          "notes": "Live coverage starts 09:15 CET on RAI. RaiPlay streams free online.",
-          "source_url": "https://www.milanosanremo.it/en/tv-coverage/"
-        },
-        {
-          "region": "🇬🇧 UK & Ireland",
-          "region_code": "GB",
-          "platform": "TNT Sports / Discovery+",
-          "free": false,
-          "geo_restricted": true,
-          "start_time_gmt": "10:30",
-          "stream_url": "https://www.discoveryplus.com/gb",
-          "notes": "Women's race coverage from 11:30 UK time (10:30 GMT) on TNT Sports. Discovery+ subscription ~£30.99/month.",
-          "source_url": "https://www.tntsports.co.uk/cycling/milano-sanremo/2026/how-to-watch-live-stream-uk-tadej-pogacar-mathieu-van-der-poel-tom-pidcock-wout-van-aert-demi-vollering-lorena-wiebes_sto23281548/story.shtml"
-        },
-        {
-          "region": "🇺🇸 USA",
-          "region_code": "US",
-          "platform": "HBO Max",
-          "free": false,
-          "geo_restricted": true,
-          "start_time_gmt": "09:35",
-          "stream_url": "https://www.hbomax.com/sports",
-          "notes": "HBO Max Sports add-on required. Plans from $18.49/month.",
-          "source_url": "https://www.cyclingnews.com/news/streaming/watch-milan-san-remo-2026-live-streams/"
-        },
-        {
-          "region": "🇨🇦 Canada",
-          "region_code": "CA",
-          "platform": "FloBikes",
-          "free": false,
-          "geo_restricted": true,
-          "start_time_gmt": "09:35",
-          "stream_url": "https://www.flobikes.com",
-          "notes": "FloBikes subscription required.",
-          "source_url": "https://www.cyclingnews.com/news/streaming/watch-milan-san-remo-2026-live-streams/"
-        },
-        {
-          "region": "🇦🇺 Australia",
-          "region_code": "AU",
-          "platform": "SBS On Demand",
-          "free": true,
-          "geo_restricted": true,
-          "start_time_gmt": "09:35",
-          "stream_url": "https://www.sbs.com.au/ondemand/cycling",
-          "notes": "Free with English commentary.",
-          "source_url": "https://velo.outsideonline.com/road/road-racing/how-to-watch-milan-san-remo-2026/"
-        },
-        {
-          "region": "🇧🇪 Belgium",
-          "region_code": "BE",
-          "platform": "VTM / RTBF (Auvio)",
-          "free": true,
-          "geo_restricted": true,
-          "start_time_gmt": "09:35",
-          "stream_url": "https://auvio.rtbf.be",
-          "notes": "Free on Belgian public broadcasters.",
-          "source_url": "https://www.milanosanremo.it/en/tv-coverage/"
-        },
-        {
-          "region": "🌍 Europe (pan-European)",
-          "region_code": "EU",
-          "platform": "Eurosport / HBO Max",
-          "free": false,
-          "geo_restricted": false,
-          "start_time_gmt": "09:35",
-          "stream_url": "https://www.eurosport.com",
-          "notes": "Eurosport / HBO Max coverage across Europe.",
-          "source_url": "https://www.milanosanremo.it/en/tv-coverage/"
-        }
-      ],
-      "data_confidence": {
-        "race_details": "high",
-        "broadcasts": "high",
-        "notes": "Start time 10:35 CET and finish ~14:20 CET from official race website. Late DNS: Marianne Vos (family illness) and Elisa Longo Borghini (illness) confirmed by Cyclingnews. Favourites updated to reflect these withdrawals."
-      }
-    },
-    {
-      "id": "classica-terres-de-lebre-2026",
-      "name": "Clàssica Terres de l'Ebre",
-      "date": "2026-03-21",
-      "status": "upcoming",
-      "edition": "3rd",
-      "category": "1.1",
-      "gender": "men",
-      "race_type": "one-day",
-      "stage_number": null,
-      "stage_race_name": null,
-      "country": "ES",
-      "country_flag": "🇪🇸",
-      "distance_km": 175.5,
-      "terrain": ["Climbing", "Puncheur"],
-      "start_town": "Alcanar",
-      "finish_town": "Paüls",
-      "finish_type": "Mountaintop",
-      "start_time_local": "10:48 CET",
-      "start_time_utc": "09:48",
-      "finish_time_local": "15:25 CET",
-      "description": "The third edition of this young Spanish 1.1 classic serves as a pre-Volta a Catalunya warm-up, with a finale up to the Castillo de Paüls featuring ramps hitting 15% that heavily favour puncheur-climbers like top-ranked favourite Enric Mas.",
-      "favourite_riders": [
-        "Enric Mas",
-        "Juan Pedro López",
-        "Eduard Prades",
-        "José Félix Parra",
-        "Fernando Barceló"
-      ],
-      "pcs_url": "https://www.procyclingstats.com/race/clasica-terres-de-l-ebre/2026",
-      "official_site": "https://classicaterresdelebre.cat/",
-      "broadcasts": [
-        {
-          "region": "🇪🇸 Spain / 🏴󠁥󠁳󠁣󠁴󠁿 Catalonia",
-          "region_code": "ES",
-          "platform": "Esport3 / TV3",
-          "free": true,
-          "geo_restricted": true,
-          "start_time_gmt": "12:45",
-          "stream_url": "https://www.3cat.cat",
-          "notes": "Free-to-air on Catalan public broadcaster. Live coverage 13:45–15:45 CET.",
-          "source_url": "https://www.ciclismoafondo.es/competicion/noticias-resultados-ciclismo/iii-classica-terres-ebre-refuerza-su-proyeccion-internacional-con-amplia-cobertura-tv_323589_102.html"
-        },
-        {
-          "region": "🇪🇸 Spain (national)",
-          "region_code": "ES",
-          "platform": "TDP (Teledeporte)",
-          "free": true,
-          "geo_restricted": true,
-          "start_time_gmt": "12:45",
-          "stream_url": "https://www.rtve.es/play/",
-          "notes": "Free on RTVE public sports channel.",
-          "source_url": "https://classicaterresdelebre.cat/"
-        },
-        {
-          "region": "🌍 Europe (pan-European)",
-          "region_code": "EU",
-          "platform": "Eurosport",
-          "free": false,
-          "geo_restricted": false,
-          "start_time_gmt": "12:45",
-          "stream_url": "https://www.eurosport.com",
-          "notes": "Eurosport covers the race in 50+ countries. Available via Discovery+ or HBO Max depending on country.",
-          "source_url": "https://www.ciclismoafondo.es/competicion/noticias-resultados-ciclismo/iii-classica-terres-ebre-refuerza-su-proyeccion-internacional-con-amplia-cobertura-tv_323589_102.html"
-        },
-        {
-          "region": "🇺🇸 USA",
-          "region_code": "US",
-          "platform": "HBO Max",
-          "free": false,
-          "geo_restricted": true,
-          "start_time_gmt": "12:40",
-          "stream_url": "https://www.hbomax.com/sports",
-          "notes": "HBO Max Sports add-on. Listed as coverage starting 8:40 AM EDT (12:40 GMT). $18.49/month.",
-          "source_url": "https://www.primevideo.com/detail/0KZT4OB25XX1RNEX15EN023OKE"
+          "source_url": "https://www.cyclist.co.uk/in-depth/volta-a-catalunya-preview"
         },
         {
           "region": "🌎 Latin America",
@@ -338,41 +139,27 @@
           "platform": "Claro Sports",
           "free": false,
           "geo_restricted": true,
-          "start_time_gmt": "12:45",
+          "start_time_gmt": "11:50",
           "stream_url": "https://clarosports.com",
-          "notes": "Claro Sports subscription required for Latin American viewers.",
-          "source_url": "https://classicaterresdelebre.cat/"
-        },
-        {
-          "region": "🌐 Global",
-          "region_code": "WW",
-          "platform": "Staylive",
-          "free": false,
-          "geo_restricted": false,
-          "start_time_gmt": "12:45",
-          "stream_url": "https://staylive.tv",
-          "notes": "Global streaming via Staylive (Warner Bros. Discovery platform). Subscription required.",
-          "source_url": "https://www.ciclismoafondo.es/competicion/noticias-resultados-ciclismo/iii-classica-terres-ebre-refuerza-su-proyeccion-internacional-con-amplia-cobertura-tv_323589_102.html"
+          "notes": "Claro Sports subscription. Caracol/RCN for Colombia specifically.",
+          "source_url": "https://www.cyclist.co.uk/in-depth/volta-a-catalunya-preview"
         }
       ],
       "data_confidence": {
         "race_details": "high",
-        "broadcasts": "medium",
-        "notes": "Date (Saturday 21 March) confirmed by multiple Spanish sources, official race website, PCS statistics page and HBO Max listing. Distance varies slightly across sources (175–177km); 175.5km used as modal value. Start (10:48 CET) and finish (15:25 CET) from ciclismoaldia.es. No UK or Australian broadcaster confirmed for this 1.1 race. US HBO Max listing confirmed via Prime Video embed. Staylive global stream confirmed by race organisers via ciclismoafondo."
+        "broadcasts": "high",
+        "notes": "Start time (12:50 CET / 11:50 GMT) and finish (~17:00 CET) confirmed by official Volta Catalunya website and multiple preview sources. Distance 172.7km confirmed by PCS and Cyclingnews. Stage 1 favourites: Evenepoel's participation was uncertain on March 20-21 due to being stranded on Tenerife by severe weather, but comments dated March 23 on cyclinguptodate.com suggest the race is underway as normal — however his participation status should be verified. UK platform note: Discovery+ is the streaming home for Stages 1–3; the switch to HBO Max begins Thursday March 26 with Stage 4. US broadcaster is Peacock (ASO rights), not HBO Max — a critical distinction. No 1.1 or above races identified on today's calendar beyond this stage."
       }
     }
   ],
   "validation": {
     "status": "warnings",
     "issues": [
-      "Milano-Sanremo start time varies slightly across sources (10:00, 10:10, 10:15 CET); 10:15 CET used as per official race website.",
-      "Sanremo Women start time given as 10:35 CET by official site vs 10:40 CET by Cycling Weekly; official site value used.",
-      "Late DNS confirmations for Sanremo Women: Marianne Vos (family illness) and Elisa Longo Borghini (illness) reported by Cyclingnews on 20 March — favourites list updated accordingly.",
-      "Jonathan Milan ruled out of men's Milano-Sanremo (illness); Mads Pedersen (Lidl-Trek) confirmed as replacement leader despite wrist injury; Matthew Brennan also withdrew.",
-      "Clàssica Terres de l'Ebre distance listed as 175km, 175.5km and 176.6km across sources; 175.5km used as modal value.",
-      "No UK broadcaster identified for Clàssica Terres de l'Ebre 2026 — this 1.1 race does not appear to have TNT Sports or Discovery+ coverage.",
-      "No Australian broadcaster identified for Clàssica Terres de l'Ebre.",
-      "Eurosport coverage for Terres de l'Ebre is non-geo-restricted in theory (50+ countries) but may require a country-specific Discovery+/HBO Max subscription."
+      "Remco Evenepoel's participation in Stage 1 was uncertain as of March 21 due to severe weather stranding him on Tenerife; search results from March 23 contain race-day comments suggesting the race is proceeding, but his actual start has not been independently confirmed in available sources.",
+      "UK broadcast platform is in transition: Stages 1–3 stream on Discovery+; Stage 4 onwards moves to HBO Max. This is confirmed by road.cc, Cycling Weekly and Cyclist.co.uk. The stream_url for Stage 1 correctly points to discoveryplus.com/gb.",
+      "US broadcast is Peacock (via ASO rights deal through 2029), not HBO Max — the two platforms carry different races and should not be confused.",
+      "Stage 1 finish time (~17:00 CET) is estimated; actual finish will depend on race speed and any delays.",
+      "No other UCI 1.1 or above races identified on March 23 2026 beyond Volta a Catalunya Stage 1. The next concurrent 1.1+ events begin March 24 (Settimana Internazionale Coppi e Bartali Stage 1, 2.1) and March 25 (Ronde van Brugge men, WT)."
     ]
   }
 }
