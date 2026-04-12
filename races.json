@@ -1,91 +1,78 @@
 {
-  "generated_at": "2026-04-09T08:00:00Z",
-  "date": "2026-04-09",
+
+  "generated_at": "2026-04-12T08:00:00Z",
+  "date": "2026-04-12",
   "races": [
     {
-      "id": "itzulia-basque-country-2026-stage-4",
-      "name": "Itzulia Basque Country – Stage 4",
-      "date": "2026-04-09",
+      "id": "paris-roubaix-men-2026",
+      "name": "Paris-Roubaix Hauts-de-France",
+      "date": "2026-04-12",
       "status": "upcoming",
-      "edition": "65th",
+      "edition": "123rd",
       "category": "WT",
       "gender": "men",
-      "race_type": "stage",
-      "stage_number": 4,
-      "stage_race_name": "Itzulia Basque Country 2026",
-      "country": "ES",
-      "country_flag": "🇪🇸",
-      "distance_km": 167.2,
-      "elevation_m": 3000,
-      "terrain": ["Mountain", "Puncheur"],
-      "start_town": "Galdakao",
-      "finish_town": "Galdakao",
-      "finish_type": "Uphill sprint finish",
-      "start_time_local": "12:20 CEST",
-      "start_time_utc": "10:20",
-      "finish_time_local": "~16:30 CEST",
-      "description": "Stage 4 of Itzulia Basque Country on a 167.2km circuit around Galdakao featuring seven categorised climbs and 3,000m+ of elevation. The stage is roller-coaster in nature, with flatter sections between climbs giving the GC riders rest before the decisive final sequence. A Red Bull KM bonus sprint (6-4-2 seconds) features before the final climb. The decisive finale: Alto de El Vivero (4.3km @ 8.3%), cresting 29km from the line, followed by a penultimate climb (~3.2km @ 8-10% first half), summit 9km out, a technical descent back into Galdakao, then an uphill finish. With del Toro and Landa already gone, and Seixas dominant, the stage is likely a battle for the breakaway or a GC consolidation day — but the difficulty is high enough for Roglič or others to probe.",
-      "gc_standings_before_stage": {
-        "source": "After Stage 3, Basauri – confirmed from official Itzulia site",
-        "stage_3_result": {
-          "1": "Axel Laurance (INEOS Grenadiers) – 3:38:33",
-          "2": "Igor Arrieta (UAE Team Emirates-XRG) – +0:02",
-          "3": "Natnael Tesfazion (Movistar) – +0:14",
-          "4": "Ilan Van Wilder (Soudal Quick-Step) – s.t.",
-          "5": "Tobias Halland Johannessen (Uno-X Mobility) – +0:18",
-          "6": "James Shaw (EF Education-EasyPost) – +0:21",
-          "7": "Clément Braz Afonso (Groupama-FDJ United) – +0:24",
-          "8": "Lorenzo Fortunato (XDS Astana) – s.t.",
-          "9": "Guillaume Martin (Groupama-FDJ United) – s.t.",
-          "10": "Reuben Thompson (Lotto-Intermarché) – +0:34"
-        },
-        "gc": {
-          "1": "Paul Seixas (Decathlon CMA CGM) – 8:08:24",
-          "2": "Primož Roglič (Red Bull-Bora-Hansgrohe) – +1:59",
-          "3": "Florian Lipowitz (Red Bull-Bora-Hansgrohe) – +2:08",
-          "4": "Mattias Skjelmose (Lidl-Trek) – +2:14",
-          "5": "Ben Tulett (Visma-Lease a Bike) – +2:27",
-          "6": "Alex Baudin (EF Education-EasyPost) – +2:31",
-          "7": "Ion Izagirre (Cofidis) – +2:36",
-          "8": "Harold Tejada (XDS Astana) – +2:48",
-          "9": "Cian Uijtdebroeks (Movistar) – +3:01",
-          "10": "Clément Champoussin (XDS Astana) – +3:02"
-        },
-        "abandonments": [
-          "Isaac del Toro (UAE) – crashed Stage 3, muscle tear, out",
-          "Mikel Landa (Soudal) – crashed Stage 2 descent, out (Giro d'Italia in doubt)"
-        ]
-      },
-      "key_climbs": [
-        { "name": "Alto de El Vivero", "length_km": 4.3, "avg_gradient_pct": 8.3, "category": 1, "km_from_finish": 29 },
-        { "name": "Penultimate climb (Legina area)", "length_km": 3.2, "avg_gradient_pct": 8.0, "max_gradient_pct": 10.0, "category": 2, "km_from_finish": 9 },
-        { "name": "Galdakao finish (uphill)", "length_km": null, "avg_gradient_pct": 7.0, "category": null, "km_from_finish": 0 }
-      ],
-      "stage_features": [
-        "Red Bull KM bonus sprint (~13km from finish): 6s / 4s / 2s time bonuses"
-      ],
+      "race_type": "one-day",
+      "stage_number": null,
+      "stage_race_name": null,
+      "country": "FR",
+      "country_flag": "🇫🇷",
+      "distance_km": 258.3,
+      "terrain": ["Cobbles", "Flat"],
+      "start_town": "Compiègne",
+      "finish_town": "Roubaix Velodrome",
+      "finish_type": "Velodrome sprint (1.5 laps)",
+      "start_time_local": "10:50 CEST",
+      "start_time_utc": "08:50",
+      "finish_time_local": "~16:35–17:05 CEST",
+      "description": "The 123rd edition of the Queen of the Classics — cycling's Hell of the North. Starts in Compiègne, neutralised roll-out to the official start with racing from ~11:05 CEST, heading northeast through the Hauts-de-France region for 258.3km across 30 cobbled sectors (54.8km total pavé). Key sectors: Quiévy à Fontaine au Tertre (4★, 3.7km, sector 28), Haveluy à Wallers (4★, 2.5km, sector 20 — new for 2026), Trouée d'Arenberg (5★, 2.3km, sector 19 — 95.3km from finish), Mons-en-Pévèle (5★, 3.0km, sector 7 — ~49km to go), Carrefour de l'Arbre (5★, 2.1km, sector 3 — ~17km to go), before a short Roubaix cobble sector into the velodrome. Records at stake: Van der Poel chasing a record-equalling 4th win (alongside De Vlaeminck and Boonen); Pogačar chasing his 5th Monument to join Merckx, De Vlaeminck and Van Looy as only the 4th rider to win all five. History note: Van der Poel has won the last 3 editions solo (2023, 2024, 2025) — the first rider to do so since Francesco Moser's 3 consecutive in 1978-80.",
+      "cobbled_sectors": 30,
+      "cobbled_km": 54.8,
+      "five_star_sectors": ["Trouée d'Arenberg (2.3km)", "Mons-en-Pévèle (3.0km)", "Carrefour de l'Arbre (2.1km)"],
       "favourite_riders": [
-        "Primož Roglič",
-        "Florian Lipowitz",
-        "Mattias Skjelmose",
-        "Ben Tulett",
-        "Ion Izagirre",
-        "Paul Seixas"
+        "Mathieu van der Poel",
+        "Tadej Pogačar",
+        "Wout van Aert",
+        "Jasper Philipsen",
+        "Mads Pedersen",
+        "Filippo Ganna",
+        "Florian Vermeersch"
       ],
-      "rider_notes": "Seixas leads by 1:59 with two Red Bull riders (Roglič & Lipowitz) as closest challengers. Red Bull have numerical advantage for GC attacks. Seixas has signalled a more conservative approach after winning the first two stages, though he didn't completely rule out another aggressive day. Roglič has shown he is still competitive despite losing his Itzulia ITT record. Skjelmose climbed up to 4th in stage 2 and is a consistent finisher. Ben Tulett (Visma-Lease a Bike) has been quietly consistent at +2:27. Isaac del Toro's abandon leaves UAE without a GC card. Juan Ayuso continues to struggle badly and is effectively out of GC contention.",
-      "pcs_url": "https://www.procyclingstats.com/race/itzulia-basque-country/2026/stage-4",
-      "official_site": "https://itzulia.eus/en/itzulia/",
+      "rider_notes": "Van der Poel (Alpecin-Premier Tech) is 3-time defending champion and bookmakers' favourite. Won all three previous editions solo. Pogačar (UAE) won Milan-San Remo and Tour of Flanders already this spring — is hunting the Monument Grand Slam (5/5). In 2025 he was alongside Van der Poel before crashing with 38km to go; returns determined not to repeat. Van Aert (Visma) is Flanders-heartland's most desperate Roubaix dream. Ganna (INEOS) skipped Itzulia specifically to prepare for this. Evenepoel not racing. Reusser and Le Court-Pienaar out (women's field). Philipsen (Alpecin) finished 2nd in 2023 and 2024 — is he due a win without needing to lead out Van der Poel? Pedersen is 2x podium finisher.",
+      "pcs_url": "https://www.procyclingstats.com/race/paris-roubaix/2026",
+      "official_site": "https://www.paris-roubaix.fr/en/",
       "broadcasts": [
         {
-          "region": "🇪🇸 Basque Country / Spain",
-          "region_code": "ES",
-          "platform": "EITB / ETB1",
+          "region": "🇫🇷 France",
+          "region_code": "FR",
+          "platform": "France TV / L'Équipe (free)",
           "free": true,
           "geo_restricted": true,
-          "start_time_gmt": "10:20",
-          "stream_url": "https://www.eitb.eus/eu/telebista/",
-          "notes": "Free-to-air on EITB Basque public broadcaster from race start.",
-          "source_url": "https://www.cyclist.co.uk/in-depth/itzulia-basque-country-preview"
+          "start_time_gmt": "08:50",
+          "stream_url": "https://www.france.tv",
+          "notes": "Free-to-air on France TV and L'Équipe from race start.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/how-to-watch-paris-roubaix-2026-live-streams-tv-channels-for-the-hell-of-the-north/"
+        },
+        {
+          "region": "🇧🇪 Belgium",
+          "region_code": "BE",
+          "platform": "Sporza / VRT (free)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "08:50",
+          "stream_url": "https://www.sporza.be",
+          "notes": "Free-to-air on Sporza / VRT from race start.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/how-to-watch-paris-roubaix-2026-live-streams-tv-channels-for-the-hell-of-the-north/"
+        },
+        {
+          "region": "🇳🇱 Netherlands",
+          "region_code": "NL",
+          "platform": "NOS / NPO (free)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "08:50",
+          "stream_url": "https://www.npostart.nl",
+          "notes": "Free-to-air on NOS from race start.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/how-to-watch-paris-roubaix-2026-live-streams-tv-channels-for-the-hell-of-the-north/"
         },
         {
           "region": "🇬🇧 UK & Ireland",
@@ -93,21 +80,21 @@
           "platform": "TNT Sports / HBO Max",
           "free": false,
           "geo_restricted": true,
-          "start_time_gmt": "13:30",
+          "start_time_gmt": "08:50",
           "stream_url": "https://www.hbomax.com/sports",
-          "notes": "Live coverage from 14:30 BST (13:30 UTC) daily. Plans from £25.99/month.",
-          "source_url": "https://procyclinguk.com/how-to-watch-itzulia-basque-country-2026-in-the-uk/"
+          "notes": "Live from race start on TNT Sports and HBO Max. Plans from £25.99/month.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/how-to-watch-paris-roubaix-2026-live-streams-tv-channels-for-the-hell-of-the-north/"
         },
         {
           "region": "🇺🇸 USA",
           "region_code": "US",
-          "platform": "FloBikes",
+          "platform": "NBC Sports / Peacock",
           "free": false,
           "geo_restricted": true,
-          "start_time_gmt": "13:30",
-          "stream_url": "https://www.flobikes.com",
-          "notes": "From 9:30 AM EDT (13:30 UTC). Monthly $39.99 / annual $155.88.",
-          "source_url": "https://cyclinguptodate.com/cycling/how-to-watch-the-2026-gp-miguel-indurain-itzulia-basque-country-live-and-on-tv-in-the-usa-and-uk-dates-stages-and-schedules"
+          "start_time_gmt": "08:30",
+          "stream_url": "https://www.peacocktv.com",
+          "notes": "Peacock and NBC Sports from 4:30 AM ET (08:30 UTC). ASO races are exclusive to Peacock/NBC in the US. Race coverage includes both men's and women's.",
+          "source_url": "https://www.nbcsports.com/cycling/news/how-to-watch-paris-roubaix-2026-schedule-start-times-tv-live-stream-info-route-map"
         },
         {
           "region": "🇨🇦 Canada",
@@ -115,10 +102,21 @@
           "platform": "FloBikes",
           "free": false,
           "geo_restricted": true,
-          "start_time_gmt": "13:30",
+          "start_time_gmt": "08:35",
           "stream_url": "https://www.flobikes.com",
-          "notes": "From 9:30 AM EDT. CAN$39.99/month.",
-          "source_url": "https://cyclinguptodate.com/cycling/how-to-watch-the-2026-gp-miguel-indurain-itzulia-basque-country-live-and-on-tv-in-the-usa-and-uk-dates-stages-and-schedules"
+          "notes": "Coverage from ~4:35 AM ET. CAN$39.99/month.",
+          "source_url": "https://sports.yahoo.com/articles/where-watch-paris-roubaix-2026-100001137.html"
+        },
+        {
+          "region": "🇦🇺 Australia",
+          "region_code": "AU",
+          "platform": "SBS On Demand (free)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "08:50",
+          "stream_url": "https://www.sbs.com.au/ondemand/cycling",
+          "notes": "Free live coverage on SBS On Demand from race start.",
+          "source_url": "https://cyclinguptodate.com/cycling/how-to-watch-2026-paris-roubaix-men-and-women-live-and-on-tv-in-the-usa-and-uk-dates-and-schedules"
         },
         {
           "region": "🌍 Europe",
@@ -126,155 +124,219 @@
           "platform": "Eurosport / HBO Max",
           "free": false,
           "geo_restricted": false,
-          "start_time_gmt": "13:30",
+          "start_time_gmt": "08:50",
           "stream_url": "https://www.eurosport.com",
-          "notes": "Eurosport and HBO Max / Discovery+ across Europe from ~14:30 CEST.",
-          "source_url": "https://www.domestiquecycling.com/en/news/how-to-watch-itzulia-basque-country-2026-streaming-and-tv-by-country/"
+          "notes": "Eurosport and HBO Max / Discovery+ across Europe from race start.",
+          "source_url": "https://www.olympics.com/en/news/2026-paris-roubaix-route-times-sections-stars-road-cycling-hell-of-the-north-preview"
         }
       ],
       "data_confidence": {
         "race_details": "high",
         "broadcasts": "high",
-        "notes": "Stage 4 route Galdakao–Galdakao confirmed by official Itzulia site and all preview sources. 167.2km and 3,000m+ confirmed (Domestique: '3,000 metres of elevation gain, across 167.2km around Galdakao'). Key climbs: Alto de El Vivero 4.3km @ 8.3%, summit 29km from finish; penultimate climb ~3.2km @ 8-10%, summit 9km from finish; uphill finish at Galdakao. Red Bull KM bonus sprint included. Start 12:20 CEST / finish ~16:30 CEST confirmed by CyclingUpToDate stage 4 preview. GC standings after Stage 3 confirmed from official Itzulia website results page: Seixas 8:08:24, Roglič +1:59, Lipowitz +2:08, Skjelmose +2:14, Tulett +2:27."
+        "notes": "123rd edition confirmed. Distance 258.3km confirmed by PCS LiveStats and multiple sources. Men's neutral start at 10:50 CEST per BikeRadar official info. Racing start 11:05 CEST per PCS. Finish expected 16:35-17:05 CEST. 30 cobbled sectors covering 54.8km confirmed by Cyclist and others. 5-star sectors: Trouée d'Arenberg, Mons-en-Pévèle, Carrefour de l'Arbre. New for 2026: Haveluy à Wallers (4★). UK on TNT Sports/HBO Max confirmed (ASO race). US on Peacock/NBC confirmed (ASO race). Canada on FloBikes confirmed. Australia SBS free confirmed. Evenepoel confirmed not racing. Van der Poel seeking record-equalling 4th win. Pogačar seeking 5th Monument."
       }
     },
     {
-      "id": "region-pays-de-la-loire-tour-2026-stage-3",
-      "name": "Région Pays de la Loire Tour – Stage 3",
-      "date": "2026-04-09",
+      "id": "paris-roubaix-femmes-2026",
+      "name": "Paris-Roubaix Femmes Hauts-de-France",
+      "date": "2026-04-12",
       "status": "upcoming",
-      "edition": "4th",
-      "category": "Pro",
-      "gender": "men",
-      "race_type": "stage",
-      "stage_number": 3,
-      "stage_race_name": "Région Pays de la Loire Tour 2026",
+      "edition": "6th",
+      "category": "WWT",
+      "gender": "women",
+      "race_type": "one-day",
+      "stage_number": null,
+      "stage_race_name": null,
       "country": "FR",
       "country_flag": "🇫🇷",
-      "distance_km": 199.0,
-      "elevation_m": 2000,
-      "terrain": ["Puncheur", "Rolling"],
-      "start_town": "Avrillé",
-      "finish_town": "Sainte-Suzanne-et-Chammes",
-      "finish_type": "Uphill finish (~1km @ 5% avg)",
-      "start_time_local": "~11:30 CEST",
-      "start_time_utc": "~09:30",
-      "finish_time_local": "~17:30 CEST",
-      "description": "Stage 3 of the Région Pays de la Loire Tour — the queen stage of this ProSeries race. At 199km with ~2,000m of elevation gain and a final circuit around Sainte-Suzanne-et-Chammes (one of France's 'Plus Belles Petites Cités de Caractère'), it is the most demanding stage of the four-day race. The final circuit features the Côte de la Fousillère (800m @ 6.4%) and finishes on a false-flat uphill stretch (~7.5% in the final hectometres) that firmly favours the GC leaders over pure sprinters. This is the decisive day before the Le Mans finale on Friday. Ethan Vernon (NSN) has won both Stages 1 and 2 in bunch sprints — but today's uphill finish should end his winning streak and decide who takes the overall lead.",
-      "gc_standings_before_stage": {
-        "source": "After Stage 2, Les Sables-d'Olonne",
-        "stage_2_winner": "Ethan Vernon (NSN Cycling Team) – 2nd consecutive sprint win",
-        "note": "Vernon leads on time after two sprint finishes. Full GC gaps not confirmed from search — stage has been leader by stage time."
-      },
+      "distance_km": 143.1,
+      "terrain": ["Cobbles", "Flat"],
+      "start_town": "Denain",
+      "finish_town": "Roubaix Velodrome",
+      "finish_type": "Velodrome sprint (1.5 laps)",
+      "start_time_local": "14:45 CEST",
+      "start_time_utc": "12:45",
+      "finish_time_local": "~18:20 CEST",
+      "description": "The 6th edition of Paris-Roubaix Femmes — for the first time held on the same day as the men's race (previously a standalone Saturday event; this is a one-year arrangement). 143.1km from Denain to the Roubaix Velodrome across 20 cobbled sectors totalling 33.7km (3 new sectors added for 2026, +4.5km vs 2025, including the 4★ Haveluy à Wallers sector). The route wastes no time: first pavé hits at 29.3km (Solesmes à Haussy, 2★). Key decisive sectors in the finale: Mons-en-Pévèle (5★, ~48km to go), Carrefour de l'Arbre (5★, ~17km to go), then the short Roubaix cobble sector into the velodrome for a 1.5-lap finish. Note: TV coverage controversy — broadcasts will only show the final 50-60km (after the men's race finishes), cutting most of the early cobbled action. No rider has won this race twice. Defending champion: Pauline Ferrand-Prévot (Visma-Lease a Bike, 2025 — last-minute entry defending her title).",
+      "cobbled_sectors": 20,
+      "cobbled_km": 33.7,
+      "five_star_sectors": ["Mons-en-Pévèle (3.0km)", "Carrefour de l'Arbre (2.1km)"],
+      "broadcast_note": "⚠️ TV coverage ONLY from final ~50-60km (after men's race finishes). Women's race starts 14:45 CEST but broadcast starts after ~17:00 CEST. UK on HBO Max shows women's footage after men's finish.",
       "favourite_riders": [
-        "Pierre Gautherat",
-        "Ewen Costiou",
-        "Quinten Hermans",
-        "Alexander Kamp",
-        "Corbin Strong"
+        "Lotte Kopecky",
+        "Pauline Ferrand-Prévot",
+        "Lorena Wiebes",
+        "Elisa Longo Borghini",
+        "Marianne Vos",
+        "Alison Jackson"
       ],
-      "rider_notes": "Today's uphill finish should see the puncheurs come to the fore and the GC settle properly. Gautherat (Decathlon CMA CGM) won Paris-Camembert and Adélie de Vitré earlier this spring — perfectly suited to this profile. Costiou (Groupama-FDJ United) was rated top favourite pre-race. Hermans (Pinarello-Q36.5) is a consistent puncheur who excels on short, punchy climbs.",
-      "pcs_url": "https://www.procyclingstats.com/race/region-pays-de-la-loire/2026/stage-3",
-      "official_site": "https://www.regionpaysdelaloire-tour.fr/",
+      "rider_notes": "Kopecky (SD Worx-Protime, 2024 winner) is the clear top favourite — best combined climbing/cobbles/sprint package and is backed by Wiebes as a devastating second option. Ferrand-Prévot (Visma-Lease a Bike) defended her 2025 title in a last-minute programme change (originally not on her schedule). No rider has won this race twice — she has the chance to be first. Wiebes is the world's fastest sprinter; her ability to survive the cobbles is the question. Longo Borghini (UAE, 2022 winner) is a proven Roubaix specialist. Vos (Visma) was 4th in 2025. Jackson (St Michel-Preference Home, 2023 winner) is a shock-edition specialist. Absent: Reusser and Le Court-Pienaar (fractures from Tour of Flanders); Ferrand-Prévot originally not planned.",
+      "pcs_url": "https://www.procyclingstats.com/race/paris-roubaix-femmes/2026",
+      "official_site": "https://www.paris-roubaix.fr/en/",
       "broadcasts": [
         {
           "region": "🇫🇷 France",
           "region_code": "FR",
-          "platform": "L'Équipe 21",
+          "platform": "France TV / L'Équipe (free)",
           "free": true,
           "geo_restricted": true,
-          "start_time_gmt": null,
-          "stream_url": "https://www.lequipe.fr/tv/",
-          "notes": "All stages broadcast live on L'Équipe 21 (free-to-air in France). Broadcast window covers the final ~2hrs — likely from ~15:30 CEST given a ~17:30 finish. Exact start time not confirmed.",
-          "source_url": "https://www.velo101.com/courses/region-pays-de-la-loire-tour/region-pays-de-la-loire-tour-2026-le-parcours-et-les-favoris/"
+          "start_time_gmt": "14:55",
+          "stream_url": "https://www.france.tv",
+          "notes": "Free-to-air in France. Broadcast starts after men's race finishes (~17:00 CEST / 14:55 UTC), showing final 50-60km.",
+          "source_url": "https://www.cyclingnews.com/pro-cycling/racing/when-to-tune-into-paris-roubaix-and-paris-roubaix-femmes-to-catch-the-most-exciting-cobble-sectors/"
+        },
+        {
+          "region": "🇧🇪 Belgium",
+          "region_code": "BE",
+          "platform": "Sporza / VRT (free)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "14:55",
+          "stream_url": "https://www.sporza.be",
+          "notes": "Free on Sporza/VRT, from ~17:00 CEST after men's race finishes.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/how-to-watch-paris-roubaix-2026-live-streams-tv-channels-for-the-hell-of-the-north/"
+        },
+        {
+          "region": "🇬🇧 UK & Ireland",
+          "region_code": "GB",
+          "platform": "TNT Sports / HBO Max",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "14:55",
+          "stream_url": "https://www.hbomax.com/sports",
+          "notes": "Live footage shown after men's race finishes — approximately from 17:00 CEST (15:00 UTC / 16:00 BST) showing final ~50-60km of the women's race. Plans from £25.99/month.",
+          "source_url": "https://www.idlprocycling.com/cycling/paris-roubaix-women-2026-preview-question-marks-around-visma-lab-could-change-everything"
+        },
+        {
+          "region": "🇺🇸 USA",
+          "region_code": "US",
+          "platform": "NBC Sports / Peacock",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "14:55",
+          "stream_url": "https://www.peacocktv.com",
+          "notes": "Women's coverage from ~10:55 AM ET (14:55 UTC), after men's race finishes. Shows final ~50-60km.",
+          "source_url": "https://sports.yahoo.com/articles/where-watch-paris-roubaix-2026-100001137.html"
+        },
+        {
+          "region": "🇨🇦 Canada",
+          "region_code": "CA",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "14:55",
+          "stream_url": "https://www.flobikes.com",
+          "notes": "Women's coverage from ~10:55 AM ET. CAN$39.99/month.",
+          "source_url": "https://sports.yahoo.com/articles/where-watch-paris-roubaix-2026-100001137.html"
+        },
+        {
+          "region": "🇦🇺 Australia",
+          "region_code": "AU",
+          "platform": "SBS On Demand (free)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "14:55",
+          "stream_url": "https://www.sbs.com.au/ondemand/cycling",
+          "notes": "Free on SBS On Demand from when coverage begins (after men's race).",
+          "source_url": "https://cyclinguptodate.com/cycling/how-to-watch-2026-paris-roubaix-men-and-women-live-and-on-tv-in-the-usa-and-uk-dates-and-schedules"
+        },
+        {
+          "region": "🌍 Europe",
+          "region_code": "EU",
+          "platform": "Eurosport / HBO Max",
+          "free": false,
+          "geo_restricted": false,
+          "start_time_gmt": "14:55",
+          "stream_url": "https://www.eurosport.com",
+          "notes": "Eurosport and HBO Max after men's race finishes.",
+          "source_url": "https://www.olympics.com/en/news/2026-paris-roubaix-route-times-sections-stars-road-cycling-hell-of-the-north-preview"
         }
       ],
       "data_confidence": {
         "race_details": "high",
-        "broadcasts": "medium",
-        "notes": "Stage 3 route confirmed: Avrillé → Sainte-Suzanne-et-Chammes, 199km (per Cyclismactu, TotalVelo, DirectVelo). Queen stage with uphill finish confirmed. Elevation ~2,000m per TotalVelo (who says 'dénivelé positif approchant les 2,000 mètres'). Start time estimated ~11:30 CEST — not officially confirmed. Stage 2 winner confirmed as Ethan Vernon (Cyclingnews: 'Pays de la Loire Tour stage 2: Ethan Vernon snaps up a second straight bunch sprint win'). L'Équipe 21 broadcast confirmed. No international broadcaster identified."
+        "broadcasts": "high",
+        "notes": "6th edition (2021 inaugural; NBC Sports erroneously says 5th). Distance 143.1km, Denain → Roubaix confirmed. 20 cobbled sectors, 33.7km of pavé confirmed by Cyclist and others. Start time 14:45 CEST (12:45 UTC) confirmed by IDL Pro Cycling preview ('Start: 2:45 p.m.'). Finish ~18:20 CEST per IDL ('approximately 6:20 p.m.'). 3 new sectors added vs 2025 including 4★ Haveluy à Wallers (sector 20). TV broadcast controversy confirmed: Cyclingnews reports 'women's race footage set to start only after the men's race finishes, showing around 50-60km.' Kopecky top favourite (2024 winner, backed by Wiebes). Ferrand-Prévot defending (last-minute entry confirmed). Reusser/Le Court-Pienaar absent (Tour of Flanders fractures). Marianne Vos racing with Visma."
       }
     }
   ],
   "context": {
     "recent_results": [
       {
+        "date": "2026-04-11",
+        "race": "Itzulia Basque Country Stage 6 (WT) – Goizper-Antzuola → Bergara",
+        "winner": "AJ August (EF Education-EasyPost)",
+        "overall_winner": "Paul Seixas (Decathlon CMA CGM)",
+        "notes": "Rain-affected final stage. Seixas won the overall Itzulia Basque Country — the 65th edition — in dominant fashion with 3 stage wins (ITT, Stage 2 mountain solo, Stage 5 mountains win) and the biggest GC gap in modern Itzulia history. A landmark triumph for French cycling from a 19-year-old."
+      },
+      {
+        "date": "2026-04-10",
+        "race": "Région Pays de la Loire Tour Stage 4 (Pro) – Brûlon → Le Mans",
+        "overall_winner": "TBC",
+        "notes": "Final stage, Le Mans city circuit with Côte de Gazonfier."
+      },
+      {
         "date": "2026-04-08",
         "race": "Scheldeprijs – Men (1.Pro, 114th)",
         "winner": "Tim Merlier (Soudal Quick-Step)",
-        "podium": [
-          "1. Tim Merlier",
-          "2. Pavel Bittner (Picnic-PostNL)",
-          "3. Emilien Jeannière (TotalEnergies)"
-        ],
-        "notes": "Merlier's 3rd consecutive Scheldeprijs (2024, 2025, 2026). Returned from lengthy knee injury (his 2nd race of 2026). Jasper Philipsen boxed in and unable to respond. Dylan Groenewegen crashed in final 10km. Merlier launched from 250m, beat his chest in emotional celebration."
+        "podium": ["1. Tim Merlier", "2. Pavel Bittner", "3. Emilien Jeannière"],
+        "notes": "Merlier's 3rd consecutive Scheldeprijs. Returned from knee injury (only 2nd race of 2026). Groenewegen crashed in final 10km; Philipsen boxed in."
       },
       {
         "date": "2026-04-08",
         "race": "Scheldeprijs – Women (1.Pro, 6th)",
         "winner": "Charlotte Kool (Fenix-Premier Tech)",
-        "podium": [
-          "1. Charlotte Kool",
-          "2. Nienke Veenhoven (Visma-Lease a Bike)",
-          "3. Elisa Balsamo (Lidl-Trek)"
-        ],
-        "notes": "Kool finally broke her run of three consecutive runner-up finishes at Scheldeprijs. Race was crash-marred — heavy crash inside final 2km reduced the group. Kool was perfectly positioned, launched 150m from line. Lorena Wiebes not racing (4-time winner)."
+        "podium": ["1. Charlotte Kool", "2. Nienke Veenhoven", "3. Elisa Balsamo"],
+        "notes": "Kool finally broke her run of 3x runner-up finishes at Scheldeprijs. Crash-marred finale."
       },
       {
-        "date": "2026-04-08",
-        "race": "Région Pays de la Loire Tour Stage 2 (Pro) – La Garnache → Les Sables-d'Olonne",
-        "winner": "Ethan Vernon (NSN Cycling Team)",
-        "notes": "Vernon's second consecutive sprint win at the race (also won Stage 1). 4 wins total for Vernon in 2026."
-      },
-      {
-        "date": "2026-04-08",
-        "race": "Itzulia Basque Country Stage 3 (WT) – Basauri circuit, 152.8km",
-        "winner": "Axel Laurance (INEOS Grenadiers)",
-        "podium": [
-          "1. Axel Laurance – 3:38:33",
-          "2. Igor Arrieta (UAE) – +0:02",
-          "3. Natnael Tesfazion (Movistar) – +0:14"
-        ],
-        "notes": "Laurance and Arrieta split from a 16-rider break at the top of Sarasola with ~25km to go. Laurance launched off Arrieta's wheel in the uphill sprint. GC unchanged: Seixas +1:59 over Roglič. Isaac del Toro crashed and abandoned Stage 3 with a muscle tear. The driver of the race doctor's car was expelled from the race after being found to have caused Mikel Landa's Stage 2 crash."
+        "date": "2026-04-05",
+        "race": "Tour of Flanders – Men (WT Monument, 110th)",
+        "winner": "Tadej Pogačar (UAE Team Emirates-XRG)",
+        "podium": ["1. Pogačar", "2. Van der Poel +0:34", "3. Evenepoel +1:11", "4. Van Aert +2:04"],
+        "notes": "Pogačar's record-equalling 3rd Flanders win. Monument #12. Attacked final Kwaremont with 18km to go. Van der Poel chasing, Evenepoel impressive Monument debut."
       }
     ],
     "notes": [
-      "Paul Seixas leads Itzulia by 1:59 after three stages — won Stages 1 (ITT) and 2 (mountain solo), controlled Stage 3. The 19-year-old from Decathlon is in extraordinary form and this is becoming a historic run.",
-      "Isaac del Toro abandoned Itzulia with a muscle tear from a Stage 3 crash — his Ardennes plans are now in doubt.",
-      "Mikel Landa also abandoned after his Stage 2 crash; his entire 2026 season including Giro d'Italia preparation is disrupted. The driver of the race doctor's car was formally expelled.",
-      "Tim Merlier returned from a lengthy knee injury to win Scheldeprijs for the third consecutive year — only his second race of 2026.",
-      "Charlotte Kool ended a frustrating run of three second-place finishes at Scheldeprijs with a commanding win.",
-      "Paris-Roubaix is this Sunday (April 12). Pogačar targets his 5th Monument for a Grand Slam that only Merckx, Van Looy, and De Vlaeminck have achieved. Evenepoel will not start. Reusser and Le Court-Pienaar out of Roubaix Femmes."
+      "Paul Seixas, 19, won Itzulia Basque Country overall — 3 stage wins (ITT, Stage 2, Stage 5) and the biggest winning margin in recent race history. A historic debut stage race triumph.",
+      "Tadej Pogačar has won 3 of his first 3 races in 2026: Strade Bianche, Milan-San Remo, Tour of Flanders. A win today would make it 4/4 and complete the Monument Grand Slam — only the 4th rider ever (alongside Merckx, De Vlaeminck, Van Looy).",
+      "Mathieu van der Poel seeks a record-equalling 4th Paris-Roubaix win (alongside De Vlaeminck 1972/74/75/77 and Boonen 2005/08/09/12). He has won 3 consecutively (2023, 2024, 2025).",
+      "Wout van Aert is chasing his dream race. Has been close multiple times (2nd 2022, 3rd 2023) but luck has not favoured him.",
+      "Women's Paris-Roubaix is on the same day as men's for the first time in 2026. TV coverage of women's race is severely curtailed — only final 50-60km shown on broadcast. Confirmed to revert to its own day in 2027.",
+      "Absent from Paris-Roubaix men: Remco Evenepoel (chose not to start). Absent from Paris-Roubaix Femmes: Marlen Reusser and Kim Le Court-Pienaar (fractures from Tour of Flanders). Marianne Vos and Pauline Ferrand-Prévot both racing (Ferrand-Prévot was a late addition).",
+      "Weather forecast: temperatures dropping to ~11°C on Sunday. Dry expected but cool.",
+      "Filippo Ganna (INEOS) skipped Itzulia specifically to prepare for Paris-Roubaix."
     ],
     "upcoming": [
       {
-        "date": "2026-04-10",
-        "race": "Itzulia Basque Country Stage 5 (WT) – Eibar",
-        "notes": "Queen stage. 176.2km, 3,841m. 8 categorised climbs including Cat.1 Krabelin (5km @ 9.6%, 67km to go) and Cat.1 Izua (4.1km @ 9.25%, 27km to go). Decisive GC day."
+        "date": "2026-04-19",
+        "race": "Amstel Gold Race (WT, Netherlands)",
+        "notes": "Start of the Ardennes Classics week. Van der Poel and Pogačar move to a very different profile."
       },
       {
-        "date": "2026-04-10",
-        "race": "Région Pays de la Loire Tour Stage 4 (Pro) – Brûlon → Le Mans",
-        "notes": "Final stage, 179.5km. Le Mans city circuit. Côte de Gazonfier (short, ~15% max) and Côte de Saint-Blaise in the finishing circuit. Decides overall winner."
+        "date": "2026-04-19",
+        "race": "Amstel Gold Race Ladies Edition (WWT, Netherlands)",
+        "notes": "Women's Ardennes opener."
       },
       {
-        "date": "2026-04-12",
-        "race": "Paris-Roubaix (1.UWT Monument)",
-        "notes": "258.3km, Compiègne → Roubaix. Pogačar chases the Grand Slam — 5th Monument. Philipsen and Ganna among top sprint contenders."
+        "date": "2026-04-22",
+        "race": "La Flèche Wallonne (WT, Belgium)",
+        "notes": "The Mur de Huy specialist race."
       },
       {
-        "date": "2026-04-12",
-        "race": "Paris-Roubaix Femmes (1.WWT Monument)",
-        "notes": "143.1km, Denain → Roubaix. Without Reusser (fractured bones from Tour of Flanders) and Le Court-Pienaar."
+        "date": "2026-04-26",
+        "race": "Liège-Bastogne-Liège (WT Monument, Belgium)",
+        "notes": "La Doyenne — the final Monument of the spring Classics season."
       }
     ]
   },
   "validation": {
     "status": "clean",
     "issues": [
-      "Itzulia Stage 4 'penultimate climb' described as 3.2km @ 8% by CyclingUpToDate vs 3.2km @ 7.7% avg by Cyclist. The 7.7% is confirmed as the 'Legina' climb — first half averages 10%, overall avg ~8%. Used 8% avg with 10% max for accuracy.",
-      "Région Pays de la Loire Tour Stage 3 start time not officially confirmed — estimated ~11:30 CEST based on 199km at ~38kph avg reaching ~17:30 finish. This is a longer stage than previous days so may start earlier.",
-      "Région Pays de la Loire Tour Stage 3 GC standings after Stage 2 not fully retrieved — Vernon confirmed as stage winner and leads on GC by time bonuses, but full seconds gaps not available."
+      "Women's race edition: NBC Sports says '5th edition'; Yahoo Sports says '6th time'. 2021 was the inaugural edition, so 2026 = 6th. Using 6th.",
+      "Women's start time: IDL Pro Cycling preview confirms '2:45 p.m.' = 14:45 CEST / 12:45 UTC. Finish ~18:20 CEST. US coverage starts at ~10:55 AM ET (14:55 UTC) = approximately 2h10 into the women's race, confirming this aligns with showing the final ~50-60km.",
+      "Men's start: BikeRadar confirms 10:50 CEST official start. PCS LiveStats shows 11:05 CEST (this is the racing start after neutralised rollout from Compiègne). Using 10:50 CEST as start_time_local.",
+      "Women's broadcast: Cyclingnews explicitly confirms TV coverage starts only after men's race finishes (~17:00 CEST), showing approximately the final 50-60km only. This has been noted as a 'massive affront to women's cycling' by some commentators and race director has confirmed the women's race will have its own day from 2027.",
+      "Itzulia final result: Cyclingnews confirms 'Paul Seixas clinches first WorldTour stage race title' and 'AJ August wins rain-battered final stage'. Full final GC gap not retrieved but Seixas was leading by ~1:59 with two stages remaining."
     ]
   }
 }
