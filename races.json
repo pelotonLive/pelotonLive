@@ -1,58 +1,68 @@
 {
-  "generated_at": "2026-04-14T08:00:00Z",
-  "date": "2026-04-14",
+  "generated_at": "2026-04-15T08:00:00Z",
+  "date": "2026-04-15",
   "races": [
     {
-      "id": "o-gran-camino-2026-stage-1",
-      "name": "O Gran Camiño – Stage 1 (ITT)",
-      "date": "2026-04-14",
+      "id": "o-gran-camino-2026-stage-2",
+      "name": "O Gran Camiño – Stage 2",
+      "date": "2026-04-15",
       "status": "upcoming",
       "edition": "5th",
       "category": "2.1",
       "gender": "men",
       "race_type": "stage",
-      "stage_number": 1,
+      "stage_number": 2,
       "stage_race_name": "O Gran Camiño 2026",
       "country": "ES",
       "country_flag": "🇪🇸",
-      "distance_km": 14.8,
-      "elevation_m": 174,
-      "terrain": ["ITT", "Hilly"],
-      "start_town": "A Coruña",
-      "finish_town": "A Coruña (Torre de Hércules)",
-      "finish_type": "Individual Time Trial",
-      "start_time_local": "14:51 CEST (first rider)",
-      "start_time_utc": "12:51",
-      "finish_time_local": "~17:00 CEST (last GC riders finish)",
-      "description": "The 5th edition of O Gran Camiño opens with a 14.8km individual time trial in A Coruña, starting and finishing near the Torre de Hércules — the ancient Roman lighthouse on the Atlantic coast that is a UNESCO World Heritage Site. The course is technical rather than a pure power effort: an opening 1.5km climb at 5.7% is followed by a 3km cobbled coastal road along the ocean (with ocean wind a factor), rising for the final 450m at 4.9%, before around 6km to the finish at the tower. With 174m of climbing, TT specialists are not necessarily favoured here — climbers who can time-trial well may have an advantage. First rider off at 14:51 CEST; GC contenders from ~15:52 CEST (Yates); last rider ~16:50 CEST. O Gran Camiño moved from its traditional February slot to April this year, placing it during the Ardennes week and competing with Brabantse Pijl (April 17) for entries. The race is 2.1 (UCI Europe Tour) — below ProSeries — though 4 WorldTeams are present, deploying primarily development riders.",
-      "stage_race_context": {
-        "total_stages": 5,
-        "total_km": 633,
-        "total_elevation_m": 9891,
-        "race_dates": "April 14–18, 2026",
-        "stage_overview": [
-          { "stage": 1, "date": "2026-04-14", "route": "A Coruña ITT", "km": 14.8, "notes": "ITT — today" },
-          { "stage": 2, "date": "2026-04-15", "route": "Vilalba → Barreiros", "km": 148.6, "notes": "Hilly, final 25km has climbs; finishes after descent. Alto do Noceda (Cat. 3) with 10km to go." },
-          { "stage": 3, "date": "2026-04-16", "route": "Carballo → Padrón", "km": 169.0, "notes": "Coruña region. 2,500m climbing. Pico Muralla (Cat. 2) summits 30km before finish — suits attackers or strong sprinters." },
-          { "stage": 4, "date": "2026-04-17", "route": "Xinzo de Limia → Alto Cabeza de Meda", "km": 145.7, "notes": "Queen stage. ~3,000m climbing crammed into last 60km. Cabeza de Meda climbed twice from different sides, Alto de Rodicio (5km @ 6.6%) between. Final climb 5.1km @ 9.4%. This decides the GC." },
-          { "stage": 5, "date": "2026-04-18", "route": "As Neves → Monte Trega", "km": 154.7, "notes": "Uphill finish on Monte Trega with Atlantic and Portugal views. Decisive if GC still close." }
+      "distance_km": 148.6,
+      "elevation_m": 2000,
+      "terrain": ["Hilly", "Puncheur"],
+      "start_town": "Vilalba",
+      "finish_town": "Barreiros",
+      "finish_type": "Downhill / flat finish (after final climb)",
+      "start_time_local": "~12:00 CEST",
+      "start_time_utc": "~10:00",
+      "finish_time_local": "~16:00 CEST",
+      "description": "Stage 2 of O Gran Camiño travels 148.6km from Vilalba — deep in the interior plains of Terra Chá, Lugo — northwest to the coastal town of Barreiros on the A Mariña coast, finishing right by the beach. The official race site calls it 'a fun stage'. Despite ~2,000m of elevation gain, it is the flattest stage of the week. The key difficulty comes in the final 25km: a series of climbs culminates in the Cat. 3 Alto do Noceda with around 10km to go, before the road descends to the seaside finish. The downhill finale means this suits puncheurs who can attack on the climbs, or aggressive riders who can hold a gap to the line — not a straightforward bunch sprint, but not a climbers' stage either. The GC gaps from Stage 1 are small (leader Johansen at 17:43; Yates 6th at +40s), meaning a serious GC attack here is unlikely, but climbers will be watching each other.",
+      "gc_standings_after_stage_1": {
+        "source": "CyclingUpToDate results article, Stage 1 result (April 14)",
+        "stage_1_winner": "Julius Johansen (UAE Team Emirates-XRG) – 17:43",
+        "stage_1_result": {
+          "1": "Julius Johansen (UAE Team Emirates-XRG) – 17:43",
+          "2": "Rafael Reis – +0:15",
+          "3": "Nelson Oliveira – +0:16",
+          "4": "Jørgen Nordhagen (Visma-Lease a Bike)",
+          "6": "Adam Yates (UAE Team Emirates-XRG) – +0:40"
+        },
+        "gc": {
+          "1": "Julius Johansen (UAE Team Emirates-XRG) – wears leader's jersey",
+          "notes": "Full GC not retrieved; Yates 6th at +0:40. Nordhagen 4th. Ivan Romeo punctured mid-ITT, lost significant time, out of GC contention."
+        },
+        "key_casualties": [
+          "Iván Romeo (Movistar) — punctured on the cobbled coastal section mid-ITT, lost substantial time, effectively out of GC",
+          "Davide Formolo — mechanical issue on same section"
         ]
       },
+      "key_climbs": [
+        {
+          "name": "Alto do Noceda",
+          "category": 3,
+          "km_from_finish": 10,
+          "notes": "Final significant climb; descent to finish on the coast after summit"
+        }
+      ],
       "favourite_riders": [
         "Adam Yates",
         "Jørgen Nordhagen",
-        "Iván Romeo",
+        "Julius Johansen",
+        "Rafael Reis",
         "Nelson Oliveira",
-        "Kevin Vermaerke"
+        "Alessandro Pinarello",
+        "Iván Sosa"
       ],
-      "rider_notes": "Adam Yates (UAE Team Emirates-XRG) is the headline GC name — using this race as Giro d'Italia preparation. Won 2022 Vuelta. Strong time triallist but likely not the outright favourite for Stage 1 given the technical, punchy ITT profile. Nelson Oliveira (one of the strongest TT specialists in the field) starts later at 16:05 CEST and may set a benchmark time. Jørgen Nordhagen (Visma-Lease a Bike) is the team's GC option — 8th at UAE Tour, supported Vingegaard to Volta a Catalunya win. Kevin Vermaerke (UAE) supports Yates. Defending champion Derek Gee (2025 winner) on whether he's entered not confirmed. Record holder Jonas Vingegaard (2x winner, 2023-24) is not racing.",
-      "past_winners": [
-        { "year": 2022, "winner": "Alejandro Valverde" },
-        { "year": 2023, "winner": "Jonas Vingegaard" },
-        { "year": 2024, "winner": "Jonas Vingegaard" },
-        { "year": 2025, "winner": "Derek Gee" }
-      ],
-      "pcs_url": "https://www.procyclingstats.com/race/gran-camino/2026/stage-1",
+      "rider_notes": "Julius Johansen (UAE, 26y, Danish) leads in yellow after a stunning ITT that surprised even himself — 'I was 30 watts under what I expected, but almost two minutes faster.' He will want to control rather than attack today. Adam Yates (UAE) is the GC leader's key teammate and overall target at +40s — close enough to target the GC win but needing the mountain stages to make the real move. Nordhagen (Visma) is the best-placed non-UAE GC rider and will look to be aggressive. The finish after a descent to the coast means pure climbers cannot simply ride away; a puncheur with finishing punch or a small group scenario is most likely. Ivan Romeo's GC hopes were wrecked by his Stage 1 puncture.",
+      "pcs_url": "https://www.procyclingstats.com/race/gran-camino/2026/stage-2",
       "official_site": "https://ograncamino.gal/?lang=en",
       "broadcasts": [
         {
@@ -61,9 +71,9 @@
           "platform": "TVG / Galicia TV (free)",
           "free": true,
           "geo_restricted": true,
-          "start_time_gmt": "13:30",
+          "start_time_gmt": "10:00",
           "stream_url": "https://www.crtvg.es/tvg/a-carta",
-          "notes": "TVG (Televisión de Galicia) provides free regional coverage of the race throughout.",
+          "notes": "TVG free regional broadcast. Available via streaming at crtvg.es.",
           "source_url": "https://cyclinguptodate.com/cycling/o-gran-camino-2026-final-startlist-preview-and-how-to-watch-in-the-usa-and-uk"
         },
         {
@@ -72,10 +82,121 @@
           "platform": "TNT Sports / HBO Max",
           "free": false,
           "geo_restricted": true,
-          "start_time_gmt": "12:30",
+          "start_time_gmt": "10:30",
           "stream_url": "https://www.hbomax.com/sports",
-          "notes": "Live from 1:30pm BST (12:30 UTC) on TNT Sports and HBO Max. Plans from £25.99/month.",
+          "notes": "Live from 11:30 BST (10:30 UTC) on TNT Sports / HBO Max. Plans from £25.99/month.",
           "source_url": "https://www.hbomax.com/ad/en/sports/2026-4-14/1cd87771-7094-5532-8058-7c83ac0b646c"
+        },
+        {
+          "region": "🇺🇸 USA",
+          "region_code": "US",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "11:30",
+          "stream_url": "https://www.flobikes.com",
+          "notes": "From 7:30 AM EDT (11:30 UTC) per Amazon Prime schedule listing for Stage 2. Monthly $39.99.",
+          "source_url": "https://www.amazon.com/O-Gran-Cami%C3%B1o-Stage-1/dp/B0GVH9N9ZM"
+        },
+        {
+          "region": "🇨🇦 Canada",
+          "region_code": "CA",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "11:30",
+          "stream_url": "https://www.flobikes.com",
+          "notes": "From 7:30 AM EDT. CAN$39.99/month.",
+          "source_url": "https://cyclinguptodate.com/cycling/o-gran-camino-2026-final-startlist-preview-and-how-to-watch-in-the-usa-and-uk"
+        },
+        {
+          "region": "🌍 Europe",
+          "region_code": "EU",
+          "platform": "Eurosport / HBO Max",
+          "free": false,
+          "geo_restricted": false,
+          "start_time_gmt": "10:00",
+          "stream_url": "https://www.eurosport.com",
+          "notes": "Eurosport and HBO Max / Discovery+ across Europe.",
+          "source_url": "https://cyclinguptodate.com/cycling/o-gran-camino-2026-final-startlist-preview-and-how-to-watch-in-the-usa-and-uk"
+        }
+      ],
+      "data_confidence": {
+        "race_details": "high",
+        "broadcasts": "medium",
+        "notes": "Stage 2 on April 15 confirmed: CyclingUpToDate Stage 1 result article (dated April 15) says 'O Gran Camiño heads into Stage 2'; cyclingstage.com says 'The next stage is the flattest of the week, and after a hilly stage on Thursday, the queen stage is scheduled for Friday' — confirming Stage 2 = Wednesday April 15, Stage 3 = Thursday April 16, Stage 4 = Friday April 17. Stage 2 route: Vilalba → Barreiros, 148.6km confirmed by Cyclingnews and UAE team page. Elevation ~2,000m per CyclingFlash preview. Alto do Noceda (Cat.3) with ~10km to finish confirmed by UAE team info ('Alto do Noceda awaits, but the finish is after a descent'). UK start time 11:30 BST confirmed by HBO Max schedule page showing Stage 2 on Apr 15 at 11:30am. US time of 7:30 AM EDT (Amazon Prime showed Stage 2 at 'Wed, Apr 15 7:30 AM'). Start time CEST estimated from broadcasts — ~12:00 CEST (~10:00 UTC). Stage 1 GC standings from CyclingUpToDate results article: Johansen 17:43, Reis +15, Oliveira +16, Nordhagen 4th, Yates 6th at +40s."
+      }
+    }
+  ,{
+      "id": "ronde-van-limburg-2026",
+      "name": "Ronde van Limburg",
+      "date": "2026-04-15",
+      "status": "upcoming",
+      "edition": "78th",
+      "category": "1.1",
+      "gender": "men",
+      "race_type": "one-day",
+      "stage_number": null,
+      "stage_race_name": null,
+      "country": "BE",
+      "country_flag": "🇧🇪",
+      "distance_km": 178.4,
+      "terrain": ["Hilly", "Cobbles", "Puncheur"],
+      "start_town": "Hasselt",
+      "finish_town": "Tongeren-Borgloon (Elisabethwal)",
+      "finish_type": "Bunch sprint / uphill drag (final hundreds of metres slightly rising, two key bends in last 1.5km)",
+      "start_time_local": "13:00 CEST",
+      "start_time_utc": "11:00",
+      "finish_time_local": "~17:13 CEST",
+      "description": "The 78th edition of Ronde van Limburg — a Flanders Classics 1.1 race and the traditional bridge between Paris-Roubaix and the Ardennes week. Starting at the Kolonel Dusartplein in Hasselt (where Merlier won the 2024 European Championship), the race traverses 178.4km through Limburg and Haspengouw with 9 classified climbs and 8 cobbled sections before finishing on the Elisabethwal in Tongeren-Borgloon, Belgium's oldest city. Route structure: an opening loop through Bilzen-Hoeselt (Glinberg 1km @ 4.7%; Keiberg 600m @ 4.7% twice; Maastrichterallee cobbles 700m @ 4.2% twice), then three laps of the 38.2km 'Limburg loop' used at the 2024 European Championships — each lap featuring Kolmontberg (1.5km @ 3.1%), Zammelenberg (800m @ 4.3%), Manshoven cobbles (1km @ 2.4%) and Op de Kriezel cobbles (1.7km @ 3%). The final 12km after the last cobbles is mostly flat with crosswind exposure, then two crucial bends in the last 1.5km before the mildly uphill finishing straight on Elisabethwal. Suits punchy sprinters with a classics engine rather than pure bunch sprinters. Reigning champion Milan Fretin (2025 winner) is absent — he fractured his elbow at Scheldeprijs. Previously on the calendar on Wednesdays between Roubaix and Brabantse Pijl; Brabantse Pijl has now moved to Friday, cementing Ronde van Limburg in this slot.",
+      "key_climbs_and_cobbles": [
+        { "name": "Glinberg", "km": 1.0, "gradient_pct": 4.7, "type": "climb", "km_into_race": 11 },
+        { "name": "Keiberg (x2)", "km": 0.6, "gradient_pct": 4.7, "type": "climb", "km_into_race": "33 + 49" },
+        { "name": "Maastrichterallee (x2)", "km": 0.7, "gradient_pct": 4.2, "type": "cobbles", "notes": "Two passes in Bilzen-Hoeselt loop" },
+        { "name": "Kolmontberg (x3)", "km": 1.5, "gradient_pct": 3.1, "type": "climb", "notes": "Three laps" },
+        { "name": "Zammelenberg (x3)", "km": 0.8, "gradient_pct": 4.3, "type": "climb", "notes": "Three laps" },
+        { "name": "Manshoven (x3)", "km": 1.0, "gradient_pct": 2.4, "type": "cobbles", "notes": "Three laps — wind exposed" },
+        { "name": "Op de Kriezel (x3)", "km": 1.7, "gradient_pct": 3.0, "type": "cobbles", "notes": "Three laps — wind exposed" }
+      ],
+      "past_winners": [
+        { "year": 2025, "winner": "Milan Fretin (Cofidis)" },
+        { "year": 2024, "winner": "Dylan Groenewegen" },
+        { "year": 2021, "winner": "Tim Merlier" },
+        { "year": 2018, "winner": "Mathieu van der Poel" },
+        { "year": 2017, "winner": "Wout van Aert" }
+      ],
+      "favourite_riders": [
+        "Tim Merlier",
+        "Jasper Stuyven",
+        "Emilien Jeannière",
+        "Pavel Bittner",
+        "Tim Torn Teutenberg"
+      ],
+      "rider_notes": "Tim Merlier (Soudal Quick-Step) is the dominant favourite. Won Scheldeprijs last week for his 3rd consecutive title in only his 2nd race back from a knee injury. Also won Ronde van Limburg in 2021. Much of the course follows the roads where he won the 2024 European Championship. Soudal DS Kevin Hulsmans: 'The course has difficult sections — short climbs, cobbles, and wind in the final laps could play a decisive role.' Dylan Groenewegen (Unibet Rose Rockets) has withdrawn — still feeling effects of his Scheldeprijs crash. Groenewegen was the 2024 winner and had been planned as Merlier's main rival. Milan Fretin (2025 winner, Cofidis) is absent with an elbow fracture from the Scheldeprijs. Without Groenewegen and Fretin, Merlier's path to victory is significantly clearer. Jasper Stuyven (Soudal) offers a more attacking option if the pure sprint doesn't materialise. 6 WorldTeams present: Lidl-Trek, Jayco AlUla, Lotto-Intermarché, Bahrain Victorious, Soudal Quick-Step, Alpecin-Premier Tech.",
+      "pcs_url": "https://www.procyclingstats.com/race/ronde-van-limburg/2026",
+      "official_site": "https://www.rondevanlimburg.be/en/",
+      "broadcasts": [
+        {
+          "region": "🇧🇪 Belgium",
+          "region_code": "BE",
+          "platform": "Sporza / VRT1 (free)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "13:15",
+          "stream_url": "https://www.sporza.be",
+          "notes": "Free-to-air on VRT1 / Sporza from 15:15 CEST (13:15 UTC).",
+          "source_url": "https://www.indeleiderstrui.nl/wielrennen/ronde-van-limburg-2026-rockets-halen-groenewegen-van-startlijst-in-laatste-race-voor-giro"
+        },
+        {
+          "region": "🇬🇧 UK & Ireland",
+          "region_code": "GB",
+          "platform": "TNT Sports / HBO Max",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "13:30",
+          "stream_url": "https://www.hbomax.com/sports",
+          "notes": "Live on TNT Sports and HBO Max. Exact start time not confirmed — estimated from Eurosport/Sporza pattern (15:30 CEST = 13:30 UTC). Plans from £25.99/month.",
+          "source_url": "https://www.domestiquecycling.com/en/news/how-to-watch-the-2026-ronde-van-limburg-streaming-and-tv-by-country/"
         },
         {
           "region": "🇺🇸 USA",
@@ -85,8 +206,8 @@
           "geo_restricted": true,
           "start_time_gmt": "13:30",
           "stream_url": "https://www.flobikes.com",
-          "notes": "From 9:30 AM EDT (13:30 UTC). Monthly $39.99 / annual $155.88.",
-          "source_url": "https://cyclinguptodate.com/cycling/o-gran-camino-2026-final-startlist-preview-and-how-to-watch-in-the-usa-and-uk"
+          "notes": "Live on FloBikes (Flanders Classics race). $39.99/month.",
+          "source_url": "https://www.flobikes.com/articles/15183657-how-to-watch-2026-ronde-van-limburg-men-cycling"
         },
         {
           "region": "🇨🇦 Canada",
@@ -96,8 +217,8 @@
           "geo_restricted": true,
           "start_time_gmt": "13:30",
           "stream_url": "https://www.flobikes.com",
-          "notes": "From 9:30 AM EDT. CAN$39.99/month.",
-          "source_url": "https://cyclinguptodate.com/cycling/o-gran-camino-2026-final-startlist-preview-and-how-to-watch-in-the-usa-and-uk"
+          "notes": "Live on FloBikes. CAN$39.99/month.",
+          "source_url": "https://www.domestiquecycling.com/en/news/how-to-watch-the-2026-ronde-van-limburg-streaming-and-tv-by-country/"
         },
         {
           "region": "🌍 Europe",
@@ -107,32 +228,44 @@
           "geo_restricted": false,
           "start_time_gmt": "13:30",
           "stream_url": "https://www.eurosport.com",
-          "notes": "Eurosport and HBO Max / Discovery+ across Europe.",
-          "source_url": "https://cyclinguptodate.com/cycling/o-gran-camino-2026-final-startlist-preview-and-how-to-watch-in-the-usa-and-uk"
+          "notes": "Eurosport and HBO Max from 15:30 CEST (13:30 UTC).",
+          "source_url": "https://www.indeleiderstrui.nl/wielrennen/ronde-van-limburg-2026-rockets-halen-groenewegen-van-startlijst-in-laatste-race-voor-giro"
         }
       ],
       "data_confidence": {
         "race_details": "high",
         "broadcasts": "high",
-        "notes": "Stage 1 ITT on April 14 confirmed by: official race site ('14 and 18 April'), CyclingUpToDate ('14th to 18th of April, opening with ITT'), Amazon Prime (Stage 1 listed April 14 at 9:30 AM EDT), HBO Max UK (Stage 1 ITT at 1:30pm BST today), CyclingUpToDate start times article (first rider 14:51 CET, Yates 15:52 CET). Cyclingnews stages page anomalously shows Stage 1 date as 2026-04-13 — believed to be a data error given all other sources confirm April 14. Distance: PCS LiveStats shows 14.8km; cyclingstage.com says 15.0km; using 14.8km as more precise. UK broadcast confirmed from HBO Max schedule page. US/CA FloBikes confirmed per Amazon Prime and CyclingUpToDate. TVG Galicia free broadcast confirmed. No Australian broadcaster (SBS) identified for this 2.1 race. Race is UCI 2.1 (Europe Tour) — below WT/Pro but included due to WorldTeam participation and international broadcast availability."
+        "notes": "Race date April 15 confirmed by official race site ('Wednesday April 15'), Sporza, Wielerflits, Domestique, and multiple Belgian sources. Start 13:00 CEST confirmed by official race info page ('Start: Kolonel Dusartplein in Hasselt - 13:00'). Finish ~17:13 CEST per official site ('Finish: Elisabethwal in Tongeren-Borgloon - around 17:13'). Distance 178.4km confirmed. Category 1.1 (UCI Europe Tour) confirmed — part of Flanders Classics series despite being below ProSeries level. 6 WorldTeams confirmed by Domestique startlist article. Belgium VRT1/Sporza from 15:15 CEST confirmed by Wielerflits ('vanaf 15.15 uur inschakelen op VRT 1'). Eurosport from 15:30 CEST confirmed ('vanaf 15.30 uur inschakelen op Eurosport'). UK on TNT Sports/HBO Max confirmed by Domestique how-to-watch guide. US/CA FloBikes confirmed by FloBikes listing. Merlier top favourite confirmed (multiple sources). Groenewegen withdrawal confirmed (Sporza headline 'Dylan Groenewegen ontbreekt in Ronde van Limburg'). Fretin absent (elbow fracture from Scheldeprijs) confirmed. Merlier also won this race in 2021 and won the 2024 European Championship on overlapping roads."
       }
     }
   ],
   "context": {
     "recent_results": [
       {
+        "date": "2026-04-14",
+        "race": "O Gran Camiño Stage 1 ITT (2.1) – A Coruña, 14.8km",
+        "winner": "Julius Johansen (UAE Team Emirates-XRG)",
+        "time": "17:43",
+        "podium": [
+          "1. Julius Johansen (UAE Team Emirates-XRG) – 17:43",
+          "2. Rafael Reis – +0:15",
+          "3. Nelson Oliveira – +0:16",
+          "4. Jørgen Nordhagen (Visma-Lease a Bike)",
+          "6. Adam Yates (UAE Team Emirates-XRG) – +0:40"
+        ],
+        "notes": "Johansen, 26, Danish, delivered the biggest win of his pro career — 'I was 30 watts under what I expected, but almost two minutes faster.' UAE's Yates sits in 6th overall at +40s — close enough that the mountains can still deliver the overall. Ivan Romeo (Movistar) punctured on the cobbled coastal section and lost major time. Formolo also had mechanical issues. Nordhagen (Visma) set an early benchmark but was ultimately 4th."
+      },
+      {
         "date": "2026-04-12",
         "race": "Paris-Roubaix Hauts-de-France (1.UWT, 123rd)",
-        "winner": "Wout van Aert (Visma-Lease a Bike)",
-        "time": "5:16:52",
-        "avg_speed_kph": 48.91,
+        "winner": "Wout van Aert (Visma-Lease a Bike) – 5:16:52",
         "podium": [
-          "1. Wout van Aert (Visma-Lease a Bike) – 5:16:52",
-          "2. Tadej Pogačar (UAE Team Emirates-XRG) – sprint",
+          "1. Wout van Aert (Visma-Lease a Bike)",
+          "2. Tadej Pogačar (UAE Team Emirates-XRG)",
           "3. Jasper Stuyven (Soudal-QuickStep)",
           "4. Mathieu van der Poel (Alpecin-Premier Tech)"
         ],
-        "notes": "One of the most dramatic editions in recent memory. Both Pogačar and Van der Poel suffered catastrophic mechanicals. Pogačar had a bike change from neutral service at 121km to go (sector 22), losing ~1 minute and chasing back with three teammates over 98km. Van der Poel had multiple punctures and stops in the Trouée d'Arenberg (sector 19) — stopped up to three times, left Arenberg over 2 minutes behind. Van Aert attacked decisively ~50km from the finish, built a 42-second lead through Mons-en-Pévèle with Pogačar, before a chasing group (Van der Poel, Laporte, Stuyven, Bissegger, Van Dijke, Pedersen) closed back. Final sprint: Van Aert vs Pogačar head-to-head — Van Aert had the superior sprint and won comfortably. 'Beating him mano a mano in a sprint is really special to me.' Van Aert dedicated the win to Michael Goolaerts, his former teammate who died during the 2018 Paris-Roubaix aged 23. First Belgian win at Roubaix since Philippe Gilbert in 2019. Fastest ever edition (48.91 kph, breaking the 2024 record). Van der Poel failed to claim record-equalling 4th win; Pogačar's Monument Grand Slam remains incomplete (still missing Roubaix). Alpecin reportedly had teammates with different cleat/pedal systems — Van der Poel unable to use neutral service bikes. Pithie (Red Bull) crashed out of podium contention."
+        "notes": "Fastest ever edition (48.91kph). Van Aert won a two-up sprint after Pogačar's legs gave out. Van der Poel suffered multiple mechanicals in Arenberg — almost bridged back but finished 4th. Van Aert dedicated win to Michael Goolaerts. First Belgian win since 2019; Visma's first since 1984."
       },
       {
         "date": "2026-04-12",
@@ -140,32 +273,29 @@
         "winner": "Franziska Koch (FDJ United-SUEZ)",
         "podium": [
           "1. Franziska Koch (FDJ United-SUEZ)",
-          "2. Marianne Vos (Visma-Lease a Bike) – ~1 wheel",
-          "3. Pauline Ferrand-Prévot (Visma-Lease a Bike, defending champion)"
+          "2. Marianne Vos (Visma-Lease a Bike)",
+          "3. Pauline Ferrand-Prévot (Visma-Lease a Bike)"
         ],
-        "notes": "Koch won from a three-rider sprint — biggest win of her career at age 25. 'I've been dreaming of this.' Vos pipped for 2nd by a wheel. Ferrand-Prévot 3rd — becomes the first repeat podium finisher. Kopecky suffered a puncture or crash that cost her the podium ('expensive mistake'). The first time both races were held on the same day; TV coverage only showed the final 50-60km of the women's race (broadcast controversy). Race director has confirmed the women's race returns to its own day in 2027."
-      },
-      {
-        "date": "2026-04-11",
-        "race": "Itzulia Basque Country Stage 6 / Overall (WT)",
-        "overall_winner": "Paul Seixas (Decathlon CMA CGM)",
-        "stage_6_winner": "AJ August (EF Education-EasyPost)",
-        "notes": "Seixas won the overall Itzulia — 3 stage wins (ITT, Stage 2 mountain solo, Stage 5 mountains). Dominant margin. Historic debut stage race triumph for the 19-year-old — landmark result for French cycling. AJ August won a rain-battered final stage."
+        "notes": "Koch won from a three-up sprint — biggest win of her career. Kopecky 4th after puncture/crash cost her podium shot."
       }
     ],
     "notes": [
-      "Wout van Aert's Paris-Roubaix win ends an eight-year personal quest and Visma-Lease a Bike's 42-year drought in the race. One of the most emotionally resonant wins in recent cycling. Dedicated to Michael Goolaerts.",
-      "Tadej Pogačar's Monument Grand Slam remains incomplete — Paris-Roubaix the sole missing jewel. He has now finished 2nd twice. Described it as 'mission impossible' to outsprint Van Aert. His spring: Milan-San Remo ✅, Tour of Flanders ✅, Paris-Roubaix ❌. Monuments total: 12.",
-      "Mathieu van der Poel left Arenberg 2+ minutes down after multiple mechanicals but still finished 4th — testament to his raw ability. Failed to claim record-equalling 4th Roubaix win.",
-      "Franziska Koch's (FDJ United-SUEZ) Paris-Roubaix Femmes win is the breakthrough result her spring form suggested — she was already on the startlist with a string of Classics results.",
-      "The calendar now moves firmly into the Ardennes week: Brabantse Pijl (men + women, 1.Pro, April 17) → Amstel Gold Race (WT, April 19) → La Flèche Wallonne (WT, April 22) → Liège-Bastogne-Liège (WT Monument, April 26).",
-      "O Gran Camiño (2.1) runs April 14–18 in Galicia — a 5-stage race with 4 WorldTeams but primarily development riders. Adam Yates (UAE) is the headline GC name."
+      "Julius Johansen's O Gran Camiño ITT win is his biggest career result to date. He set personal-best power figures for a time that he expected to be slower — ideal form for UAE's Giro d'Italia build-up.",
+      "Adam Yates (+40s after Stage 1) is the GC target for UAE and is well placed heading into the mountain stages. The team have a tactical luxury: Johansen is a legitimate jersey contender AND a Yates support option.",
+      "Iván Romeo's puncture was the key story of Stage 1 — he was setting the fastest intermediate time when the mechanical struck on the cobbled coastal road section. A damaging loss of GC time.",
+      "The calendar is in a quiet stretch between the spring classics (now over) and the Ardennes week starting Friday April 17 with Brabantse Pijl. O Gran Camiño is the only WT/Pro-level action until then.",
+      "Brabantse Pijl (April 17) marks the real opening of the Ardennes sequence: men's and women's 1.Pro races in Belgium, then Amstel Gold Race (April 19, WT), La Flèche Wallonne (April 22, WT), and Liège-Bastogne-Liège (April 26, WT Monument)."
     ],
     "upcoming": [
       {
-        "date": "2026-04-15",
-        "race": "O Gran Camiño Stage 2 (2.1)",
-        "notes": "Vilalba → Barreiros, 148.6km. Hilly stage. Alto do Noceda (Cat. 3) 10km from finish before descent to line — suits puncheurs."
+        "date": "2026-04-16",
+        "race": "O Gran Camiño Stage 3 (2.1)",
+        "notes": "Carballo → Padrón, 169km, 2,470m climbing. Rolling Coruña region. Pico Muralla (Cat. 2, 10.7km @ 3.8%, steep start at 6.1% for first 3km) summits 30km before finish. Flat to sprint finish after descent — suits attackers or strong sprinters. Key day for breakaways."
+      },
+      {
+        "date": "2026-04-17",
+        "race": "O Gran Camiño Stage 4 – Queen Stage (2.1)",
+        "notes": "Xinzo de Limia → Alto Cabeza de Meda, 145.7km, ~3,000m climbing crammed into last 55km. Cabeza de Meda climbed twice from different sides; Alto de Rodicio (5km @ 6.6%) between. Final climb 5.1km @ 9.4%. This decides the GC."
       },
       {
         "date": "2026-04-17",
@@ -175,38 +305,32 @@
       {
         "date": "2026-04-17",
         "race": "Brabantse Pijl – Women (1.Pro)",
-        "notes": "125.7km, Lennik → Overijse. 19 climbs. Same decisive local circuits as men. Start 11:25 CEST."
+        "notes": "125.7km, Lennik → Overijse. 19 climbs. Start 11:25 CEST. Reigning champion: Elisa Longo Borghini (2x winner)."
       },
       {
         "date": "2026-04-19",
         "race": "Amstel Gold Race (1.UWT, Netherlands)",
-        "notes": "The first Ardennes Monument. Typically 250km+ with the Cauberg and Bemelerberg as key features."
-      },
-      {
-        "date": "2026-04-19",
-        "race": "Amstel Gold Race Ladies Edition (1.WWT)",
-        "notes": "Women's Ardennes opener."
+        "notes": "First Ardennes Monument. Classic puncheur finish."
       },
       {
         "date": "2026-04-22",
         "race": "La Flèche Wallonne (1.UWT)",
-        "notes": "Mur de Huy specialist race — decided on the iconic wall."
+        "notes": "Mur de Huy."
       },
       {
         "date": "2026-04-26",
         "race": "Liège-Bastogne-Liège (1.UWT Monument)",
-        "notes": "La Doyenne — the final Monument of the spring season, 160km+ in the Ardennes."
+        "notes": "La Doyenne — final Monument of spring."
       }
     ]
   },
   "validation": {
     "status": "clean",
     "issues": [
-      "Stage 1 date discrepancy: Cyclingnews stages page shows Stage 1 date as 2026-04-13 and Stage 2 as 2026-04-14. However, all other authoritative sources (official race website, CyclingUpToDate, Amazon Prime, HBO Max UK broadcast schedule) confirm Stage 1 ITT runs TODAY April 14. The Cyclingnews date for Stage 1 appears to be an error. Using April 14 for Stage 1.",
-      "Distance: PCS LiveStats shows 14.8km for Stage 1 ITT; cyclingstage.com says 15.0km. CyclingUpToDate and UAE team page say ~15km. Using 14.8km (PCS is generally the most precise source for exact stage distances).",
-      "O Gran Camiño is 2.1 (UCI Europe Tour) — below the WT and Pro thresholds used on most previous days of this session. Included because: (a) it is the only race of the day at any meaningful level, (b) 4 WorldTeams present, (c) international broadcast on HBO Max/FloBikes/TVG confirmed.",
-      "No Australian SBS broadcast identified for this 2.1 race — SBS typically only covers WT-level events.",
-      "Paris-Roubaix women's race result: Koch win and Vos 2nd confirmed from multiple sources (Cyclingnews live blog, citizentribune AP wire, CyclingUpToDate results). Kopecky position (4th via puncture/crash) confirmed from Cyclingnews headline 'Expensive mistake costs Lotte Kopecky shot at Paris-Roubaix Femmes podium'."
+      "Stage 2 date: Cyclingnews stages page lists Stage 2 (Vilalba–Barreiros) with date 2026-04-14, but this is the same systematic -1 day error as Stage 1 (which ran April 14 despite being listed as April 13). All evidence — HBO Max UK (Stage 2 at 11:30am April 15), Amazon Prime (Stage 2 at 7:30 AM EDT April 15), cyclingstage.com ('hilly stage on Thursday' = Stage 3 = April 16, implying Stage 2 = April 15) — confirms Stage 2 is today, April 15. Using April 15.",
+      "US start time: Amazon Prime listing showed Stage 2 at 7:30 AM EDT. This is earlier than Stage 1 (9:30 AM EDT per FloBikes). Both may be broadcast start times rather than race start times. Using 7:30 AM EDT (11:30 UTC) as shown by Amazon Prime for US.",
+      "Stage 2 distance: Cyclingnews stages page shows 148.6km; HBO Max UK listing says 158.5km (likely includes neutralised sections). Using 148.6km as the official race distance.",
+      "Full Stage 1 GC standings not available — only top positions retrieved from CyclingUpToDate article. Yates confirmed 6th at +40s from the same source."
     ]
   }
 }
