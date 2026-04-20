@@ -1,0 +1,454 @@
+{
+  "generated_at": "2026-04-17T08:00:00Z",
+  "date": "2026-04-17",
+  "races": [
+    {
+      "id": "brabantse-pijl-women-2026",
+      "name": "Brabantse Pijl – La Flèche Brabançonne Femmes",
+      "date": "2026-04-17",
+      "status": "upcoming",
+      "edition": "11th",
+      "category": "1.Pro",
+      "gender": "women",
+      "race_type": "one-day",
+      "country": "BE",
+      "country_flag": "🇧🇪",
+      "distance_km": 125.7,
+      "terrain": ["Puncheur", "Hilly", "Cobbles"],
+      "start_town": "Lennik",
+      "finish_town": "Overijse (Brusselsesteenweg)",
+      "finish_type": "Uphill sprint / reduced group (S-Bocht 1.3km @ 4.2%, 200m flat after crest)",
+      "start_time_local": "11:25 CEST",
+      "start_time_utc": "09:25",
+      "finish_time_local": "~14:35 CEST",
+      "description": "The 11th edition of Brabantse Pijl Women — 125.7km from Lennik to Overijse over 19 climbs. The race is the traditional bridge between the cobbled Spring Classics and the Ardennes block. After an opening hilly section through Lennik and Beersel, the decisive action concentrates on three repeated local laps of 20km around Overijse, each featuring the punishing quartet: Hertstraat (700m @ 5%), Moskesstraat (500m @ 9.2%, cobbled — the key selection climb), Holstheide (1km @ 5.4%), and the S-Bocht Overijse (1.3km @ 4.2%, uphill finish). First passage at finish ~13:10, second ~13:39, third (finish) ~14:08. Six of the last seven editions ended in a sprint atop the S-Bocht. Neither defending champion Elisa Longo Borghini (UAE, 2x winner) nor the previous men's champion Evenepoel will race today. Women's race on the same day as the men's for the second year.",
+      "key_climbs": [
+        { "name": "Hertstraat", "length_km": 0.7, "gradient_pct": 5.0, "surface": "tarmac", "repeats": 3 },
+        { "name": "Moskesstraat", "length_km": 0.5, "gradient_pct": 9.2, "surface": "cobbled", "repeats": 3, "notes": "Key selection climb" },
+        { "name": "Holstheide", "length_km": 1.0, "gradient_pct": 5.4, "surface": "tarmac", "repeats": 3 },
+        { "name": "S-Bocht Overijse (finish)", "length_km": 1.3, "gradient_pct": 4.2, "max_gradient_pct": 5.7, "surface": "tarmac", "repeats": 3, "notes": "Uphill finish — sharp right-hander to begin, chicane, 200m flat after crest" }
+      ],
+      "past_winners": [
+        { "year": 2025, "winner": "Elisa Longo Borghini (UAE)" },
+        { "year": 2024, "winner": "Elisa Longo Borghini (UAE)" },
+        { "year": 2023, "winner": "Marianne Vos" },
+        { "year": 2022, "winner": "Demi Vollering" },
+        { "year": 2021, "winner": "Silvia Persico" }
+      ],
+      "favourite_riders": [
+        "Franziska Koch",
+        "Lotte Kopecky",
+        "Marianne Vos",
+        "Lorena Wiebes",
+        "Silvia Persico",
+        "Pauline Ferrand-Prévot"
+      ],
+      "rider_notes": "Franziska Koch (FDJ United-SUEZ, Paris-Roubaix winner) arrives in excellent form. Lotte Kopecky (SD Worx-Protime) suits this terrain well. UAE Team ADQ have depth across Karlijn Swinkels, Dominika Włodarczyk, Eleonora Gasparrini, Silvia Persico (2021 winner) and Paula Blasi. Marianne Vos (Visma-Lease a Bike) is a former winner. Ferrand-Prévot (Visma) is in form after Paris-Roubaix podium. Wiebes (SD Worx) has the sprint but the climbs could be an issue. Elisa Longo Borghini (UAE, 2x defending champion) is not racing today.",
+      "pcs_url": "https://www.procyclingstats.com/race/brabantse-pijl-women/2026",
+      "official_site": "https://www.debrabantsepijl.be/en/",
+      "broadcasts": [
+        {
+          "region": "🇧🇪 Belgium",
+          "region_code": "BE",
+          "platform": "VRT1 / Sporza (free)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "10:45",
+          "stream_url": "https://www.sporza.be",
+          "notes": "Free on VRT1 and Sporza. Women's coverage from ~12:45 CEST (10:45 UTC) per IDL preview.",
+          "source_url": "https://www.idlprocycling.com/cycling/brabantse-pijl-2026-preview-who-takes-the-spoils-after-pidcock-withdraws"
+        },
+        {
+          "region": "🇬🇧 UK & Ireland",
+          "region_code": "GB",
+          "platform": "HBO Max / TNT Sports",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "10:45",
+          "stream_url": "https://www.hbomax.com/sports",
+          "notes": "Women's race from 11:45 BST (10:45 UTC) on HBO Max. TNT Sports for men's race later. Plans from £25.99/month.",
+          "source_url": "https://www.cyclingweekly.com/news/cycling-tv-streaming-guide-how-to-watch-this-weeks-races"
+        },
+        {
+          "region": "🇺🇸 USA",
+          "region_code": "US",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "09:15",
+          "stream_url": "https://www.flobikes.com",
+          "notes": "Women's race from 5:30 AM EDT (09:30 UTC). US/CA FloBikes coverage starts 9:15 AM EDT (13:15 UTC) covering both races.",
+          "source_url": "https://sports.yahoo.com/articles/watch-2026-brabantse-pijl-150102119.html"
+        },
+        {
+          "region": "🇨🇦 Canada",
+          "region_code": "CA",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "09:15",
+          "stream_url": "https://www.flobikes.com",
+          "notes": "Same as USA. CAN$39.99/month.",
+          "source_url": "https://sports.yahoo.com/articles/watch-2026-brabantse-pijl-150102119.html"
+        },
+        {
+          "region": "🌍 Europe",
+          "region_code": "EU",
+          "platform": "Eurosport / HBO Max",
+          "free": false,
+          "geo_restricted": false,
+          "start_time_gmt": "10:45",
+          "stream_url": "https://www.eurosport.com",
+          "notes": "Women's race on HBO Max from ~12:45 CEST. Eurosport from ~15:15 CEST (after women's finish, covering men).",
+          "source_url": "https://www.domestiquecycling.com/en/news/how-to-watch-the-2026-de-brabantse-pijl-streaming-and-tv-by-country/"
+        },
+        {
+          "region": "🇫🇷 France",
+          "region_code": "FR",
+          "platform": "L'Équipe",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "10:45",
+          "stream_url": "https://www.lequipe.fr/tv/",
+          "notes": "L'Équipe TV/channel covers the race in France.",
+          "source_url": "https://www.cyclist.co.uk/in-depth/brabantse-pijl-preview"
+        }
+      ],
+      "data_confidence": {
+        "race_details": "high",
+        "broadcasts": "high",
+        "notes": "11th edition confirmed (first in 2016). Distance 125.7km, Lennik → Overijse, 19 climbs all confirmed by official site and multiple preview sources. Start 11:25 CEST per official site. Finish ~14:35 CEST per official site. Neither Longo Borghini nor Evenepoel defending confirmed by Cyclist preview: 'neither will be defending his title this year'. Women's UK broadcast at 11:45 BST confirmed by Cycling Weekly and ProCyclingUK. Belgian VRT1/Sporza coverage confirmed. US FloBikes from 5:30 AM EDT for women. Koch is Paris-Roubaix winner and pre-race favourite with Koch/Kopecky/Vos the main names."
+      }
+    },
+    {
+      "id": "brabantse-pijl-men-2026",
+      "name": "Brabantse Pijl – La Flèche Brabançonne",
+      "date": "2026-04-17",
+      "status": "upcoming",
+      "edition": "66th",
+      "category": "1.Pro",
+      "gender": "men",
+      "race_type": "one-day",
+      "country": "BE",
+      "country_flag": "🇧🇪",
+      "distance_km": 162.5,
+      "terrain": ["Puncheur", "Hilly", "Cobbles"],
+      "start_town": "Beersel (Provinciedomein Huizingen)",
+      "finish_town": "Overijse (Brusselsesteenweg)",
+      "finish_type": "Uphill sprint / reduced group (S-Bocht 1.3km @ 4.2%)",
+      "start_time_local": "13:30 CEST",
+      "start_time_utc": "11:30",
+      "finish_time_local": "~17:09 CEST",
+      "description": "The 66th edition of Brabantse Pijl — 162.5km from Beersel to Overijse over 21 climbs through the provinces of Flemish and Walloon Brabant. The race is the traditional transition between the cobbled Spring Classics and the Ardennes block, now held on Friday to precede the Amstel Gold Race on Sunday. After 15 categorised climbs in the opening 100km (including Alsemberg, Bruineput, Beerselberg, Eigenbrakelsesteenweg and others), the decisive action concentrates on three repeated local laps of the 19.8km Overijse circuit, each featuring: Hertstraat (700m @ 4.7%), Moskesstraat (500m @ 8%, cobbled — the key selection point), Holstheide (1km @ 5.3%) and S-Bocht Overijse (1.3km @ 4.2% uphill finish with sharp right-hander at the base). The Moskesstraat ends with 10.5km to go each lap — the classic launchpad for attacks. Six of the previous seven editions ended in a sprint on the S-Bocht; Magnus Sheffield's 2022 solo win was the exception. Reigning champion Remco Evenepoel (Soudal QS, 2025) is absent with injury. Tom Pidcock (Pinarello-Q36.5) also withdrew late.",
+      "key_climbs": [
+        { "name": "Alsemberg", "length_km": 1.6, "gradient_pct": 2.8, "surface": "tarmac", "repeats": 1, "km_into_race": 6 },
+        { "name": "Bruineput", "length_km": 1.2, "gradient_pct": 5.7, "surface": "tarmac", "repeats": 1 },
+        { "name": "Hertstraat (x3)", "length_km": 0.7, "gradient_pct": 4.7, "surface": "tarmac", "repeats": 3 },
+        { "name": "Moskesstraat (x3)", "length_km": 0.5, "gradient_pct": 8.0, "surface": "cobbled", "repeats": 3, "notes": "The decisive climb — 10.5km from line each pass" },
+        { "name": "Holstheide (x3)", "length_km": 1.0, "gradient_pct": 5.3, "surface": "tarmac", "repeats": 3 },
+        { "name": "S-Bocht Overijse / finish (x3)", "length_km": 1.3, "gradient_pct": 4.2, "max_gradient_pct": 5.7, "surface": "tarmac", "repeats": 3, "notes": "Sharp right-hand corner entry, chicane, 200m flat after crest" }
+      ],
+      "past_winners": [
+        { "year": 2025, "winner": "Remco Evenepoel (Soudal QS)" },
+        { "year": 2024, "winner": "Dorian Godon (Decathlon AG2R)" },
+        { "year": 2023, "winner": "Benoît Cosnefroy (Decathlon AG2R)" },
+        { "year": 2022, "winner": "Magnus Sheffield" },
+        { "year": 2021, "winner": "Tom Pidcock" },
+        { "year": 2020, "winner": "Julian Alaphilippe" },
+        { "year": 2019, "winner": "Mathieu van der Poel" }
+      ],
+      "favourite_riders": [
+        "Romain Grégoire",
+        "Mauro Schmid",
+        "Tim Wellens",
+        "Benoît Cosnefroy",
+        "Tibor Del Grosso",
+        "Florian Vermeersch",
+        "Jhonatan Narváez"
+      ],
+      "rider_notes": "No dominant favourite with Evenepoel (injuries) and Pidcock (Ardennes focus after ravine crash) both absent. Romain Grégoire (Groupama-FDJ United) is the PCS top-rated starter. Mauro Schmid (Jayco AlUla) is in career-best form (2,119 UCI points in 2026, debut at this race). Tim Wellens (Bahrain) and Benoît Cosnefroy (Decathlon AG2R, 2023 winner) are former winners. Tibor Del Grosso (UAE) rode well at Paris-Roubaix. Florian Vermeersch (UAE) also suited to this profile after his Roubaix performance. Jhonatan Narváez (INEOS) is a noted Ardennes-type. Teams: Alpecin, Bahrain, Cofidis, EF, FDJ, Groupama, Jayco, Lotto-Intermarché, NSN, Pinarello-Q36.5, Soudal QS, UAE and others. 19 teams total.",
+      "pcs_url": "https://www.procyclingstats.com/race/brabantse-pijl/2026",
+      "official_site": "https://www.debrabantsepijl.be/en/",
+      "broadcasts": [
+        {
+          "region": "🇧🇪 Belgium",
+          "region_code": "BE",
+          "platform": "VRT1 / Sporza (free)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "13:00",
+          "stream_url": "https://www.sporza.be",
+          "notes": "Free on VRT1 from 15:00 CEST (13:00 UTC). Sporza.be for streaming.",
+          "source_url": "https://www.idlprocycling.com/cycling/brabantse-pijl-2026-preview-who-takes-the-spoils-after-pidcock-withdraws"
+        },
+        {
+          "region": "🇬🇧 UK & Ireland",
+          "region_code": "GB",
+          "platform": "TNT Sports / HBO Max",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "13:15",
+          "stream_url": "https://www.hbomax.com/sports",
+          "notes": "Men's race from 14:15 BST (13:15 UTC) on TNT Sports 1 and 5, also HBO Max. Plans from £25.99/month.",
+          "source_url": "https://www.cyclingweekly.com/news/cycling-tv-streaming-guide-how-to-watch-this-weeks-races"
+        },
+        {
+          "region": "🇺🇸 USA",
+          "region_code": "US",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "13:15",
+          "stream_url": "https://www.flobikes.com",
+          "notes": "From 7:30 AM EDT (11:30 UTC) — race start. Combined US/CA coverage from 9:15 AM EDT (13:15 UTC).",
+          "source_url": "https://sports.yahoo.com/articles/watch-2026-brabantse-pijl-150102119.html"
+        },
+        {
+          "region": "🇨🇦 Canada",
+          "region_code": "CA",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "13:15",
+          "stream_url": "https://www.flobikes.com",
+          "notes": "Same as USA. CAN$39.99/month.",
+          "source_url": "https://sports.yahoo.com/articles/watch-2026-brabantse-pijl-150102119.html"
+        },
+        {
+          "region": "🌍 Europe",
+          "region_code": "EU",
+          "platform": "Eurosport / HBO Max",
+          "free": false,
+          "geo_restricted": false,
+          "start_time_gmt": "13:15",
+          "stream_url": "https://www.eurosport.com",
+          "notes": "Eurosport from ~15:15 CEST (13:15 UTC). HBO Max also.",
+          "source_url": "https://www.idlprocycling.com/cycling/brabantse-pijl-2026-preview-who-takes-the-spoils-after-pidcock-withdraws"
+        },
+        {
+          "region": "🇫🇷 France",
+          "region_code": "FR",
+          "platform": "L'Équipe",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "13:15",
+          "stream_url": "https://www.lequipe.fr/tv/",
+          "notes": "L'Équipe TV in France.",
+          "source_url": "https://www.cyclist.co.uk/in-depth/brabantse-pijl-preview"
+        }
+      ],
+      "data_confidence": {
+        "race_details": "high",
+        "broadcasts": "high",
+        "notes": "66th edition confirmed. Distance 162.5km, Beersel → Overijse, 21 climbs confirmed by official site ('Start: Provinciedomein Huizingen in Beersel – 13:30, Finish: Brusselsesteenweg in Overijse – around 17:09'). Three laps of 19.8km Overijse circuit confirmed. Moskesstraat key details: 500m @ 8% cobbled per Domestique. UK on TNT Sports 1 & 5 and HBO Max confirmed by Cyclist. Belgian VRT1 from 15:00 CEST confirmed by IDL. Eurosport from ~15:15 CEST confirmed. FloBikes US/CA confirmed. Evenepoel absent confirmed (multiple sources). Pidcock absent confirmed (Cyclingnews mention 'Pinarello-Q36.5 still holding on to Pidcock hope for Ardennes, but it may be wishful thinking' + IDL 'the withdrawal of Pidcock leaves Quinten Hermans and Xandro Meurisse'). PCS top-rated favourites: Grégoire, Schmid, Del Grosso."
+      }
+    },
+    {
+      "id": "o-gran-camino-2026-stage-4",
+      "name": "O Gran Camiño – Stage 4 (Queen Stage)",
+      "date": "2026-04-17",
+      "status": "upcoming",
+      "edition": "5th",
+      "category": "2.1",
+      "gender": "men",
+      "race_type": "stage",
+      "stage_number": 4,
+      "stage_race_name": "O Gran Camiño 2026",
+      "country": "ES",
+      "country_flag": "🇪🇸",
+      "distance_km": 145.7,
+      "elevation_m": 2934,
+      "terrain": ["Mountain", "Summit finish"],
+      "start_town": "Xinzo de Limia",
+      "finish_town": "Alto Cabeza de Meda (Xunqueira de Espadanedo)",
+      "finish_type": "Summit finish (5.1km @ 9.4%)",
+      "start_time_local": "~12:00 CEST",
+      "start_time_utc": "~10:00",
+      "finish_time_local": "~16:30 CEST",
+      "description": "The queen stage of O Gran Camiño 2026 — 145.7km from Xinzo de Limia in Ourense to the never-before-used summit finish at Alto Cabeza de Meda in Xunqueira de Espadanedo. The ~3,000m of climbing is concentrated into the final 55km. The Alto Cabeza de Meda is climbed twice — once from each side — with the Alto de Rodicio (5km @ 6.6%) as a hard intermediate climb between the two passages. The first ascent of Cabeza de Meda (5.9km @ 6.3%) crests ~35km from the finish. After descending and tackling Rodicio, the decisive final climb to the summit is 5.1km at 9.4% avg — the steepest finish of the race. This stage decides the overall. Pre-stage GC is extremely tight with only seconds separating the leaders.",
+      "gc_standings_before_stage": {
+        "source": "Confirmed from Visma team report, Cyclingnews and Domestique (Stage 3 result, April 16)",
+        "stage_3_result": {
+          "1": "Iván Romeo (Movistar) – 11km solo attack, Stage 3 winner",
+          "2": "Alessandro Pinarello (NSN Cycling) – +0:15",
+          "3": "Abel Balderstone (Caja Rural) – +0:15",
+          "4": "George Bennett (NSN) – +0:25",
+          "5": "Adam Yates (UAE) – +0:25",
+          "6": "Jørgen Nordhagen (Visma) – +0:25"
+        },
+        "gc": {
+          "1": "Alessandro Pinarello (NSN Cycling)",
+          "2": "Jørgen Nordhagen (Visma-Lease a Bike) – ~0:01",
+          "notes": "After recalculation, Pinarello leads Nordhagen by a very small margin (~1 second). Romeo sits ~26s back. Yates at similar deficit. Exact GC splits not fully confirmed — differences are extremely small at the top."
+        },
+        "key_notes": [
+          "Pinarello leads after bonus seconds recalculation gave him edge over Nordhagen",
+          "Romeo (won Stage 3) is now 3rd-6th, ~26s back — mountain stage completely suits him",
+          "Yates (UAE) also ~26s back — has the climbing pedigree to take overall",
+          "Original Stage 1 ITT winner Julius Johansen (UAE) unlikely to feature in GC fight on the summit"
+        ]
+      },
+      "key_climbs": [
+        { "name": "Alto Cabeza de Meda (1st pass)", "length_km": 5.9, "gradient_pct": 6.3, "category": 1, "km_from_finish": 35 },
+        { "name": "Alto de Rodicio", "length_km": 5.0, "gradient_pct": 6.6, "category": 1, "km_from_finish": 18 },
+        { "name": "Alto Cabeza de Meda (2nd pass / finish)", "length_km": 5.1, "gradient_pct": 9.4, "category": 1, "km_from_finish": 0, "notes": "Summit finish — never used before in professional racing" }
+      ],
+      "favourite_riders": [
+        "Iván Romeo",
+        "Adam Yates",
+        "Jørgen Nordhagen",
+        "Abel Balderstone",
+        "Alessandro Pinarello",
+        "George Bennett"
+      ],
+      "rider_notes": "Romeo (Movistar, won Stage 3, Spanish road champion) was the pre-race GC favourite before his Stage 1 puncture; stage 3 victory puts him back in the picture ~26s back. His attacking style and time-trialling ability on the steep summit make him the danger man. Yates (UAE) is also ~26s down — experienced GC racer who wins stage races, climbing suits him well. Nordhagen (Visma, 22y, Norwegian) is GC leader or within 1s — youngest race leader, strong ascending form. Pinarello (NSN, 23y, Italian) leads or is within 1s — a development team leader carrying yellow into the queen stage. Bennett (NSN, NZ champion) and Balderstone (Caja Rural, Argentinian) are also in contention.",
+      "pcs_url": "https://www.procyclingstats.com/race/gran-camino/2026/stage-4",
+      "official_site": "https://ograncamino.gal/?lang=en",
+      "broadcasts": [
+        {
+          "region": "🇪🇸 Spain (Galicia)",
+          "region_code": "ES",
+          "platform": "TVG / Galicia TV (free)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "10:00",
+          "stream_url": "https://www.crtvg.es/tvg/a-carta",
+          "notes": "TVG free regional broadcast throughout.",
+          "source_url": "https://cyclinguptodate.com/cycling/o-gran-camino-2026-final-startlist-preview-and-how-to-watch-in-the-usa-and-uk"
+        },
+        {
+          "region": "🇬🇧 UK & Ireland",
+          "region_code": "GB",
+          "platform": "TNT Sports / HBO Max",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "10:30",
+          "stream_url": "https://www.hbomax.com/sports",
+          "notes": "Live from 11:30 BST (10:30 UTC). Note: today UK also has Brabantse Pijl from 11:45 BST — these overlap, check for coverage scheduling.",
+          "source_url": "https://www.domestiquecycling.com/en/news/how-to-watch-the-2026-ronde-van-limburg-streaming-and-tv-by-country/"
+        },
+        {
+          "region": "🇺🇸 USA",
+          "region_code": "US",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "10:30",
+          "stream_url": "https://www.flobikes.com",
+          "notes": "Time approximate — note that Brabantse Pijl also streams on FloBikes today from 9:15 AM EDT. Check FloBikes schedule for exact O Gran Camiño slot.",
+          "source_url": "https://cyclinguptodate.com/cycling/o-gran-camino-2026-final-startlist-preview-and-how-to-watch-in-the-usa-and-uk"
+        },
+        {
+          "region": "🇨🇦 Canada",
+          "region_code": "CA",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "10:30",
+          "stream_url": "https://www.flobikes.com",
+          "notes": "Same as USA. CAN$39.99/month.",
+          "source_url": "https://cyclinguptodate.com/cycling/o-gran-camino-2026-final-startlist-preview-and-how-to-watch-in-the-usa-and-uk"
+        },
+        {
+          "region": "🌍 Europe",
+          "region_code": "EU",
+          "platform": "Eurosport / HBO Max",
+          "free": false,
+          "geo_restricted": false,
+          "start_time_gmt": "10:30",
+          "stream_url": "https://www.eurosport.com",
+          "notes": "Eurosport and HBO Max. Note: Eurosport also has Brabantse Pijl from 15:15 CEST today.",
+          "source_url": "https://cyclinguptodate.com/cycling/o-gran-camino-2026-final-startlist-preview-and-how-to-watch-in-the-usa-and-uk"
+        }
+      ],
+      "data_confidence": {
+        "race_details": "high",
+        "broadcasts": "medium",
+        "notes": "Stage 4 date as April 17 confirmed by: cycling fantasy tool (Stage 4 = today based on Stage 3 being April 16), Cyclingnews stages page systematic date shift, cyclingstage.com ('the GC is likely to be decided in tomorrow's queen stage' — said on Stage 3 day), UAE team page. Distance 145.7km confirmed. Elevation 2,934m per cyclingstage.com route. Final climb 5.1km @ 9.4% confirmed per UAE team page. First ascent 5.9km @ 6.3% and Rodicio 5km @ 6.6% per cyclingstage.com. GC standings after Stage 3: Pinarello leads Nordhagen (very narrowly) after recalculation confirmed by Visma team report. Romeo 3rd-6th @ ~26s confirmed from multiple sources (Cyclingnews, Domestique, CyclingUpToDate). Stage 3 winner Romeo confirmed. Broadcast start time is estimated — O Gran Camiño historically broadcasts the queen stage live; clashes with Brabantse Pijl on same day may affect scheduling."
+      }
+    }
+  ],
+  "context": {
+    "recent_results": [
+      {
+        "date": "2026-04-16",
+        "race": "O Gran Camiño Stage 3 (2.1) – Carballo → Padrón, 169km",
+        "winner": "Iván Romeo (Movistar Team)",
+        "podium": [
+          "1. Iván Romeo (Movistar) – solo, +0:15 over chasers",
+          "2. Alessandro Pinarello (NSN Cycling)",
+          "3. Abel Balderstone (Caja Rural-Seguros RGA)"
+        ],
+        "gc_after": "Pinarello leads (after recalculation) by ~1s over Nordhagen; Romeo ~26s back in 3rd-6th",
+        "notes": "Romeo, Spanish road champion, attacked with 11km to go on the Pico Muralla descent and held off all chasers. A 6-man front group formed over the summit (Romeo, Yates, Nordhagen, Bennett, Pinarello, Balderstone); Romeo then went clear 10km from the line. Puts him back in GC contention after Stage 1 puncture wrecked his ITT. Original leader Reis ceded the jersey 4:40 back."
+      },
+      {
+        "date": "2026-04-15",
+        "race": "O Gran Camiño Stage 2 (2.1) – Vilalba → Barreiros, 148.6km",
+        "winner": "Carlos Canal (Movistar Team)",
+        "notes": "Canal won in a reduced sprint finish. Nordhagen gained time."
+      },
+      {
+        "date": "2026-04-15",
+        "race": "Ronde van Limburg (1.1) – Hasselt → Tongeren, 178.4km",
+        "winner": "Tim Merlier (Soudal Quick-Step)",
+        "podium": [
+          "1. Tim Merlier (Soudal Quick-Step)",
+          "2. Fernando Gaviria (Caja Rural-Seguros RGA)",
+          "3. Floris Van Tricht (NSN Development)"
+        ],
+        "notes": "Merlier won his 2nd Ronde van Limburg (also 2021) in a dominant bunch sprint at Tongeren. Now joint record holder at the race. Launched from 250-300m, on right barriers, multiple bike lengths advantage. Merlier now has 2 wins from 4 race days in 2026. Groenewegen (main rival, 2024 winner) and Fretin (defending, broken elbow) were both absent. Van Tricht 3rd is a notable result for the NSN Development Team."
+      },
+      {
+        "date": "2026-04-14",
+        "race": "O Gran Camiño Stage 1 ITT (2.1) – A Coruña, 14.8km",
+        "winner": "Julius Johansen (UAE Team Emirates-XRG) – 17:43",
+        "notes": "Johansen's first pro win. Iván Romeo punctured mid-ITT when fastest at intermediate checkpoint, losing his GC chances. Yates 6th at +40s."
+      }
+    ],
+    "notes": [
+      "Brabantse Pijl (both races) is the last major racing before the Amstel Gold Race on Sunday April 19. Many riders use it as a final tune-up for the Ardennes triple.",
+      "O Gran Camiño Stage 4 is the decisive day for the overall — the GC leaders are separated by seconds going into the first 9.4%-avg summit finish in professional cycling at Cabeza de Meda.",
+      "Broadcast clash today: Brabantse Pijl (men's finish ~17:09 CEST) and O Gran Camiño Stage 4 (queen stage, starts ~12:00 CEST) overlap in the afternoon window. Check your platform's schedule.",
+      "Remco Evenepoel (Soudal QS) is not at Brabantse Pijl — he's making his return to racing after injury. First appearance since March 3 crash confirmed to be at Brabantse Pijl per Cyclingnews headline ('Belgian champion to make first appearance since March 3 crash at Friday's De Brabantse Pijl') — NOTE: this likely means he IS racing today after all, contradicting the earlier withdrawal note. See validation.",
+      "Tomorrow (April 18) is O Gran Camiño Stage 5 — As Neves → Monte Trega, the final uphill stage.",
+      "Sunday April 19: Amstel Gold Race (WT, men + women). The Ardennes block is here."
+    ],
+    "upcoming": [
+      {
+        "date": "2026-04-18",
+        "race": "O Gran Camiño Stage 5 (2.1) – Final",
+        "notes": "As Neves → Monte Trega, 154.7km, 2,380m climbing. Alto de Vaga twice (5km @ 7.7%) before Monte de Santa Trega (3.6km @ 7.6%). Decisive if GC still close after Stage 4."
+      },
+      {
+        "date": "2026-04-19",
+        "race": "Amstel Gold Race (1.UWT, Netherlands)",
+        "notes": "257.2km, 33 climbs. Mattias Skjelmose defending champion. Evenepoel, Healy, Jorgenson, Scaroni among confirmed starters."
+      },
+      {
+        "date": "2026-04-19",
+        "race": "Amstel Gold Race Ladies Edition (1.WWT)",
+        "notes": "Demi Vollering, Lorena Wiebes, Franziska Koch, Kasia Niewiadoma among confirmed starters."
+      },
+      {
+        "date": "2026-04-22",
+        "race": "La Flèche Wallonne (1.UWT)",
+        "notes": "Mur de Huy — one of cycling's most iconic uphill sprint finishes."
+      },
+      {
+        "date": "2026-04-26",
+        "race": "Liège-Bastogne-Liège (1.UWT Monument)",
+        "notes": "La Doyenne — the final Monument of the spring season."
+      }
+    ]
+  },
+  "validation": {
+    "status": "review",
+    "issues": [
+      "EVENEPOEL UNCERTAINTY: The context note mentions 'Belgian champion to make first appearance since March 3 crash at Friday's De Brabantse Pijl' from Cyclingnews — this suggests Evenepoel IS starting today, which contradicts earlier information used for the Brabantse Pijl men's race entry (which listed Evenepoel as absent). The IDL preview says 'Pidcock withdraws' rather than Evenepoel. The Cyclist preview says 'neither Longo Borghini nor Evenepoel will be defending his title' for the women — Evenepoel obviously cannot defend the women's title, so that sentence refers to both their respective races: Longo Borghini for women, Evenepoel for men. However, the Cyclingnews snippet could mean he IS racing today as his comeback. This needs verification at race time. Evenepoel's race presence has been marked as uncertain.",
+      "O Gran Camiño Stage 4 date: Confirmed as April 17 via the systematic +1 day correction applied throughout this series. CyclingStage.com (updated April 15) said 'the GC is likely to be decided in tomorrow's queen stage' on Stage 3 day — Stage 3 was April 16, confirming Stage 4 = April 17.",
+      "GC exact gaps: The Pinarello vs Nordhagen margin and exact positions of Romeo/Yates/Balderstone/Bennett in the GC are confirmed but exact seconds not all retrieved. Used 'within ~1s' for 1st/2nd and '~26s' for the chasing group based on the 6-man front group that came in 25s behind Romeo on Stage 3.",
+      "O Gran Camiño broadcasts: Start time for Stage 4 broadcast estimated. With Brabantse Pijl (1.Pro) on the same platforms today, there may be scheduling compromises for coverage."
+    ]
+  }
+}
