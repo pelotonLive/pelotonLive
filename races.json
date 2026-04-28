@@ -18,7 +18,11 @@
       "country_flag": "🇨🇭",
       "distance_km": 3.2,
       "elevation_m": 58,
-      "terrain": ["Prologue", "Time trial", "Uphill finish"],
+      "terrain": [
+        "Prologue",
+        "Time trial",
+        "Uphill finish"
+      ],
       "start_town": "Villars-sur-Glâne",
       "finish_town": "Villars-sur-Glâne",
       "finish_type": "Uphill time trial finish (800m ramp @ 6.9% avg)",
@@ -36,37 +40,57 @@
         "notes": "Only one summit finish in the entire race (Stage 5 to Leysin). Deliberately designed as a climbers' Romandie with no second time trial. Pogačar's stage race debut for 2026 — never previously started Tour de Romandie. Race director confirmed Pogačar was not paid to attend ('Pogačar is not at the Tour de Romandie for money').",
         "stages": [
           {
-            "stage": 0, "name": "Prologue", "date": "2026-04-28",
-            "route": "Villars-sur-Glâne → Villars-sur-Glâne", "km": 3.2, "elev_m": 58,
-            "type": "Uphill prologue TT", "notes": "TODAY. Uphill finish. Rain forecast. First yellow jersey."
+            "stage": 0,
+            "name": "Prologue",
+            "date": "2026-04-28",
+            "route": "Villars-sur-Glâne → Villars-sur-Glâne",
+            "km": 3.2,
+            "elev_m": 58,
+            "type": "Uphill prologue TT",
+            "notes": "TODAY. Uphill finish. Rain forecast. First yellow jersey."
           },
           {
-            "stage": 1, "date": "2026-04-29",
-            "route": "Martigny → Martigny", "km": 170.6, "elev_m": 1985,
+            "stage": 1,
+            "date": "2026-04-29",
+            "route": "Martigny → Martigny",
+            "km": 170.6,
+            "elev_m": 1985,
             "type": "Circuit with uphill, then downhill finish",
             "notes": "Côte de la Rasse x3 (2.2km @ 8.9%), then Cat.1 Ovronnaz (8.9km @ 9.7%). Summit 33.8km from finish — long descent to Martigny. GC riders test."
           },
           {
-            "stage": 2, "date": "2026-04-30",
-            "route": "Rue → Vucherens", "km": 173.1, "elev_m": 2749,
+            "stage": 2,
+            "date": "2026-04-30",
+            "route": "Rue → Vucherens",
+            "km": 173.1,
+            "elev_m": 2749,
             "type": "Rolling, puncheur finish",
             "notes": "Looped circuit around rolling Vaud terrain. Côte de Vuilliens (3.6km @ 4.8%) is the circuit climb, final ascent crested inside 5km. Puncheurs' day."
           },
           {
-            "stage": 3, "date": "2026-05-01",
-            "route": "Orbe → Orbe", "km": 176.6, "elev_m": 2409,
+            "stage": 3,
+            "date": "2026-05-01",
+            "route": "Orbe → Orbe",
+            "km": 176.6,
+            "elev_m": 2409,
             "type": "Circuit, downhill finish",
             "notes": "Multiple laps with Col de Mollendruz (9km @ 6.1%) on final lap. 21.4km descent then flat run-in to Orbe."
           },
           {
-            "stage": 4, "date": "2026-05-02",
-            "route": "Broc → Charmey", "km": 149.6, "elev_m": 3175,
+            "stage": 4,
+            "date": "2026-05-02",
+            "route": "Broc → Charmey",
+            "km": 149.6,
+            "elev_m": 3175,
             "type": "Mountain stage, downhill finish",
             "notes": "Queen stage by elevation. Jaun Pass (Jaunpass, 8.1km @ 8.3%) tackled twice from different sides plus Saanenmöser. 16.7km descent to Charmey finish."
           },
           {
-            "stage": 5, "date": "2026-05-03",
-            "route": "Lucens → Leysin", "km": 178.2, "elev_m": 3524,
+            "stage": 5,
+            "date": "2026-05-03",
+            "route": "Lucens → Leysin",
+            "km": 178.2,
+            "elev_m": 3524,
             "type": "Summit finish",
             "notes": "ONLY summit finish. Leysin: 13.9km @ 5.9% avg, max 12%. Final showdown for yellow. Described as 'reminiscent of Liège-Bastogne-Liège but with a summit finish.'"
           }
@@ -84,24 +108,73 @@
       ],
       "rider_notes": "Prologue top favourites: Ivo Oliveira (UAE Team Emirates-XRG) is the most likely winner — the Portuguese rider was 2nd at this prologue in 2025 and is a genuine TT specialist who also climbs well (suiting the uphill finish). Ethan Hayter (Soudal Quick-Step) is a past Romandie prologue winner and an explosive puncheur with strong TT ability. Tadej Pogačar (UAE) is categorised as an 'outsider' for the prologue itself by IDL — at 3.2km, the uphill section plays to him, but pure TT men are usually faster over such short distances. He is the overwhelming GC favourite however, debuting at Romandie direct from 4 race days in 2026 (all wins except Paris-Roubaix 2nd). Primož Roglič (Red Bull-Bora-Hansgrohe) is also a strong prologue performer when fresh. Florian Lipowitz (Red Bull) and Oscar Onley (INEOS) lead the GC pack. Luke Plapp (Jayco AlUla), Rémi Cavagna (FDJ), and Mauro Schmid (Jayco, fresh from Flèche 2nd place) add sprint TT power. Notable absentees from start list: Lidl-Trek, Uno-X, Decathlon CMA CGM. 14 WorldTeams + Tudor Pro Cycling. 15 teams total, 105 riders.",
       "gc_contenders": [
-        { "rider": "Tadej Pogačar", "team": "UAE Team Emirates-XRG", "notes": "Romandie debut. 4 wins from 5 race days in 2026. Won LBL 48h ago. Last stage race: Tour de France 2025." },
-        { "rider": "Primož Roglič", "team": "Red Bull-Bora-Hansgrohe", "notes": "2-time Romandie winner (2018, 2019). Back together with teammate Lipowitz for first time this season." },
-        { "rider": "Florian Lipowitz", "team": "Red Bull-Bora-Hansgrohe", "notes": "Strongest Red Bull performer so far in 2026. Won Itzulia Basque Country stage. Alongside Roglič." },
-        { "rider": "Oscar Onley", "team": "INEOS Grenadiers", "notes": "Scottish climber, looked strong at Volta ao Algarve before illness at Paris-Nice. First serious test." },
-        { "rider": "Lenny Martinez", "team": "Bahrain Victorious", "notes": "2nd in 2025 Romandie overall. Strong spring — 2nd Volta a Catalunya, 4th Flèche Wallonne." },
-        { "rider": "Daniel Felipe Martínez", "team": "Red Bull-Bora-Hansgrohe", "notes": "2nd Paris-Nice. Red Bull's third GC card." },
-        { "rider": "Antonio Tiberi", "team": "Bahrain Victorious", "notes": "Skipping Giro this year, targeting stage races. Back racing after Itzulia DNF." }
+        {
+          "rider": "Tadej Pogačar",
+          "team": "UAE Team Emirates-XRG",
+          "notes": "Romandie debut. 4 wins from 5 race days in 2026. Won LBL 48h ago. Last stage race: Tour de France 2025."
+        },
+        {
+          "rider": "Primož Roglič",
+          "team": "Red Bull-Bora-Hansgrohe",
+          "notes": "2-time Romandie winner (2018, 2019). Back together with teammate Lipowitz for first time this season."
+        },
+        {
+          "rider": "Florian Lipowitz",
+          "team": "Red Bull-Bora-Hansgrohe",
+          "notes": "Strongest Red Bull performer so far in 2026. Won Itzulia Basque Country stage. Alongside Roglič."
+        },
+        {
+          "rider": "Oscar Onley",
+          "team": "INEOS Grenadiers",
+          "notes": "Scottish climber, looked strong at Volta ao Algarve before illness at Paris-Nice. First serious test."
+        },
+        {
+          "rider": "Lenny Martinez",
+          "team": "Bahrain Victorious",
+          "notes": "2nd in 2025 Romandie overall. Strong spring — 2nd Volta a Catalunya, 4th Flèche Wallonne."
+        },
+        {
+          "rider": "Daniel Felipe Martínez",
+          "team": "Red Bull-Bora-Hansgrohe",
+          "notes": "2nd Paris-Nice. Red Bull's third GC card."
+        },
+        {
+          "rider": "Antonio Tiberi",
+          "team": "Bahrain Victorious",
+          "notes": "Skipping Giro this year, targeting stage races. Back racing after Itzulia DNF."
+        }
       ],
       "past_prologue_winners": [
-        { "year": 2025, "winner": "Sam Watson" },
-        { "year": 2024, "winner": "Maikel Zijlaard" },
-        { "year": 2023, "winner": "Ethan Hayter" }
+        {
+          "year": 2025,
+          "winner": "Sam Watson"
+        },
+        {
+          "year": 2024,
+          "winner": "Maikel Zijlaard"
+        },
+        {
+          "year": 2023,
+          "winner": "Ethan Hayter"
+        }
       ],
       "past_overall_winners": [
-        { "year": 2025, "winner": "João Almeida (UAE)" },
-        { "year": 2024, "winner": "Carlos Rodriguez (INEOS)" },
-        { "year": 2023, "winner": "Adam Yates (UAE)" },
-        { "year": 2022, "winner": "Aleksandr Vlasov (Bora)" }
+        {
+          "year": 2025,
+          "winner": "João Almeida (UAE)"
+        },
+        {
+          "year": 2024,
+          "winner": "Carlos Rodriguez (INEOS)"
+        },
+        {
+          "year": 2023,
+          "winner": "Adam Yates (UAE)"
+        },
+        {
+          "year": 2022,
+          "winner": "Aleksandr Vlasov (Bora)"
+        }
       ],
       "pcs_url": "https://www.procyclingstats.com/race/tour-de-romandie/2026/prologue",
       "official_site": "https://www.tourderomandie.ch/en/",
@@ -114,19 +187,30 @@
           "geo_restricted": true,
           "start_time_gmt": "14:00",
           "stream_url": "https://www.hbomax.com/sports",
-          "notes": "Prologue broadcast from 16:00 CEST (14:00 UTC) per cycling archives source. TNT Sports (Prologue on TNT Sports main channel per Cyclist magazine UK). From £25.99/month standalone.",
-          "source_url": "https://www.cyclist.co.uk/in-depth/tour-de-romandie-preview"
+          "notes": "Live coverage split across TNT Sports channels (prologue on TNT Sports main). Broadcast from ~16:00 CEST (14:00 UTC). From £25.99/month standalone or £30.99/month month-to-month.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/watch-tour-de-romandie-2026-free/"
         },
         {
-          "region": "🇺🇸 USA / 🇨🇦 Canada",
+          "region": "🇺🇸 USA",
           "region_code": "US",
           "platform": "FloBikes",
           "free": false,
           "geo_restricted": true,
           "start_time_gmt": "13:28",
           "stream_url": "https://www.flobikes.com",
-          "notes": "FloBikes carries Tour de Romandie for US and Canada.",
-          "source_url": "https://www.cyclist.co.uk/in-depth/tour-de-romandie-preview"
+          "notes": "FloBikes. $39.99/month or $155.88/year. NOT on Peacock or Max.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/watch-tour-de-romandie-2026-free/"
+        },
+        {
+          "region": "🇨🇦 Canada",
+          "region_code": "CA",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_gmt": "13:28",
+          "stream_url": "https://www.flobikes.com",
+          "notes": "FloBikes.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/watch-tour-de-romandie-2026-free/"
         },
         {
           "region": "🇨🇭 Switzerland",
@@ -136,36 +220,47 @@
           "geo_restricted": true,
           "start_time_gmt": "13:28",
           "stream_url": "https://www.rts.ch/sport",
-          "notes": "RTS Sport provides free live coverage in Switzerland. Host country broadcaster.",
-          "source_url": "https://cyclingarchives.com/tour-de-romandie-2026-preview-route-stages-favorites-predictions-79th-edition/"
+          "notes": "RTS is the Swiss public broadcaster — free live coverage in Switzerland.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/watch-tour-de-romandie-2026-free/"
         },
         {
-          "region": "🌍 Europe",
+          "region": "🇫🇷 France",
+          "region_code": "FR",
+          "platform": "L'Équipe TV (free)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_gmt": "13:28",
+          "stream_url": "https://www.lequipe.fr/tv",
+          "notes": "Free on L'Équipe TV in France.",
+          "source_url": "https://www.cyclingnews.com/news/how-to-watch-the-2025-tour-de-romandie-live-streams-tv-coverage/"
+        },
+        {
+          "region": "🌍 Europe (other)",
           "region_code": "EU",
-          "platform": "Eurosport / discovery+",
+          "platform": "Eurosport / discovery+ / HBO Max",
           "free": false,
           "geo_restricted": false,
           "start_time_gmt": "14:00",
           "stream_url": "https://www.eurosport.com",
-          "notes": "Eurosport 1 with English commentary, and discovery+ across European markets. Broadcast from 16:00 CEST.",
-          "source_url": "https://cyclingarchives.com/tour-de-romandie-2026-preview-route-stages-favorites-predictions-79th-edition/"
+          "notes": "Eurosport 1 with English commentary across European markets, via discovery+ or HBO Max depending on country.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/watch-tour-de-romandie-2026-free/"
         },
         {
-          "region": "🇦🇺 Australia",
+          "region": "🇦🇺 Australia / 🇳🇿 NZ",
           "region_code": "AU",
-          "platform": "SBS on Demand (free)",
-          "free": true,
+          "platform": "No broadcast confirmed — VPN required",
+          "free": false,
           "geo_restricted": true,
-          "start_time_gmt": "13:28",
-          "stream_url": "https://www.sbs.com.au/ondemand",
-          "notes": "SBS carries Tour de Romandie in Australia.",
-          "source_url": "https://cyclingarchives.com/tour-de-romandie-2026-preview-route-stages-favorites-predictions-79th-edition/"
+          "start_time_gmt": null,
+          "stream_url": null,
+          "notes": "No Australian broadcaster has picked up Tour de Romandie 2026 rights. Cyclingnews explicitly confirms 'no Australian channels have picked up Tour de Romandie.' Australian viewers need a VPN to access their usual European stream (e.g. RTS via Swiss VPN server).",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/watch-tour-de-romandie-2026-free/"
         }
       ],
       "data_confidence": {
         "race_details": "high",
-        "broadcasts": "medium",
-        "notes": "79th edition confirmed. Distance 3.2km (PCS: 3.2km; cyclinguptodate/IDL: 3.1km; cycling archives: 3.17km — using 3.2km per PCS). Elevation 58m per PCS result page. Start time 15:28 CEST per PCS result page. Broadcast from 16:00 CEST confirmed by cycling archives detailed preview. UK on TNT Sports confirmed by Cyclist magazine. US/CA FloBikes confirmed by Cyclist magazine. Switzerland RTS Sport free confirmed by cycling archives. Australia SBS confirmed by cycling archives. Pogačar debut at Romandie confirmed by multiple sources. His attendance was confirmed just days before ('Pogačar is not at the Tour de Romandie for money'). Prologue winner Ivo Oliveira or Hayter most likely per IDL; Pogačar is listed as outsider for stage but GC favourite overall."
+        "broadcasts": "high",
+        "notes": "Broadcast details corrected. Cyclingnews 2026 how-to-watch guide confirms: UK = TNT Sports/HBO Max; US/CA = FloBikes only (NOT Peacock or Max); Switzerland = RTS free; France = L'Equipe free; Europe = Eurosport/discovery+/HBO Max. Australia = NO COVERAGE — Cyclingnews explicitly states 'no Australian channels have picked up Tour de Romandie.' This is consistent with 2025 Cyclingnews guide which also stated no SBS coverage. The cycling archives preview article's mention of SBS was erroneous. Race distance: 3.2km per PCS. Start time 15:28 CEST per PCS."
       }
     },
     {
@@ -182,7 +277,11 @@
       "country": "TR",
       "country_flag": "🇹🇷",
       "distance_km": 134,
-      "terrain": ["Hilly", "Puncheur", "Climber finish"],
+      "terrain": [
+        "Hilly",
+        "Puncheur",
+        "Climber finish"
+      ],
       "start_town": "Marmaris",
       "finish_town": "Kiran",
       "finish_type": "Uphill or hilly finish",
@@ -194,29 +293,85 @@
         "total_stages": 8,
         "race_dates": "April 26 – May 3, 2026",
         "stages": [
-          { "stage": 1, "date": "2026-04-26", "route": "Çeşme → Selçuk", "km": 148.7, "result": "Tom Crabbe (Team Flanders-Baloise) wins bunch sprint — 3rd win of 2026 season. Simon Dehairs 2nd, Davide Persico 3rd. Peloton split early." },
-          { "stage": 2, "date": "2026-04-27", "route": "Aydin → Marmaris", "km": 158, "result": "Tom Crabbe wins again — 2nd consecutive stage. Dropped inside final 10km but fought back to win sprint." },
-          { "stage": 3, "date": "2026-04-28", "route": "Marmaris → Kiran", "km": 134, "notes": "TODAY. Shorter hilly stage — likely breaks sprint pattern." },
-          { "stage": 4, "date": "2026-04-29", "route": "Marmaris → Fethiye", "km": 131 },
-          { "stage": 5, "date": "2026-04-30", "route": "Patara → Kemer", "km": 186 },
-          { "stage": 6, "date": "2026-05-01", "route": "Antalya → Feslikan", "km": 131 },
-          { "stage": 7, "date": "2026-05-02", "route": "Antalya → Antalya", "km": 156 },
-          { "stage": 8, "date": "2026-05-03", "route": "Ankara → Ankara", "km": 108 }
+          {
+            "stage": 1,
+            "date": "2026-04-26",
+            "route": "Çeşme → Selçuk",
+            "km": 148.7,
+            "result": "Tom Crabbe (Team Flanders-Baloise) wins bunch sprint — 3rd win of 2026 season. Simon Dehairs 2nd, Davide Persico 3rd. Peloton split early."
+          },
+          {
+            "stage": 2,
+            "date": "2026-04-27",
+            "route": "Aydin → Marmaris",
+            "km": 158,
+            "result": "Tom Crabbe wins again — 2nd consecutive stage. Dropped inside final 10km but fought back to win sprint."
+          },
+          {
+            "stage": 3,
+            "date": "2026-04-28",
+            "route": "Marmaris → Kiran",
+            "km": 134,
+            "notes": "TODAY. Shorter hilly stage — likely breaks sprint pattern."
+          },
+          {
+            "stage": 4,
+            "date": "2026-04-29",
+            "route": "Marmaris → Fethiye",
+            "km": 131
+          },
+          {
+            "stage": 5,
+            "date": "2026-04-30",
+            "route": "Patara → Kemer",
+            "km": 186
+          },
+          {
+            "stage": 6,
+            "date": "2026-05-01",
+            "route": "Antalya → Feslikan",
+            "km": 131
+          },
+          {
+            "stage": 7,
+            "date": "2026-05-02",
+            "route": "Antalya → Antalya",
+            "km": 156
+          },
+          {
+            "stage": 8,
+            "date": "2026-05-03",
+            "route": "Ankara → Ankara",
+            "km": 108
+          }
         ]
       },
       "recent_results": [
         {
-          "stage": 1, "winner": "Tom Crabbe (Team Flanders-Baloise)",
+          "stage": 1,
+          "winner": "Tom Crabbe (Team Flanders-Baloise)",
           "notes": "Belgian 20-year-old wins messy sprint — 3rd win of 2026 season. Beats Simon Dehairs and Davide Persico. Described as a 'messy sprint.'"
         },
         {
-          "stage": 2, "winner": "Tom Crabbe (Team Flanders-Baloise)",
+          "stage": 2,
+          "winner": "Tom Crabbe (Team Flanders-Baloise)",
           "notes": "Crabbe dropped at 10km from finish but fought back to sprint to victory. Remarkable recovery ride."
         }
       ],
       "pcs_url": "https://www.procyclingstats.com/race/tour-of-turkey/2026/stage-3",
       "official_site": "https://www.tourofturkiye.org.tr/en",
       "broadcasts": [
+        {
+          "region": "🌐 Global (Official)",
+          "region_code": "GLOBAL",
+          "platform": "YouTube — FloBikes channel (free)",
+          "free": true,
+          "geo_restricted": false,
+          "start_time_gmt": "08:00",
+          "stream_url": "https://www.youtube.com/@FloBikes",
+          "notes": "FloBikes has been streaming Tour of Türkiye stages LIVE on their official YouTube channel. Stage 1 and Stage 2 were both streamed free on YouTube. Check FloBikes YouTube channel on race day. The YouTube description says 'Watch every Tour of Turkey 2026 stage live, only on FloBikes' — but the actual stream is available on YouTube without a FloBikes subscription.",
+          "source_url": "https://www.youtube.com/watch?v=E2zA03ZJOEw"
+        },
         {
           "region": "🇺🇸 USA / 🇨🇦 Canada",
           "region_code": "US",
@@ -225,29 +380,29 @@
           "geo_restricted": true,
           "start_time_gmt": "08:00",
           "stream_url": "https://www.flobikes.com",
-          "notes": "FloBikes carries Tour of Türkiye in North America.",
-          "source_url": "https://cybernews.com/stream-online/how-to-watch-tour-of-turkiye-2026-live-stream-for-free/"
+          "notes": "Full live coverage on FloBikes with commentary. $39.99/month.",
+          "source_url": "https://www.flobikes.com/watch"
         },
         {
           "region": "🇦🇺 Australia",
           "region_code": "AU",
-          "platform": "SBS on Demand (free)",
+          "platform": "SBS on Demand (free) — unverified",
           "free": true,
           "geo_restricted": true,
           "start_time_gmt": "08:00",
           "stream_url": "https://www.sbs.com.au/ondemand",
-          "notes": "Free on SBS On Demand.",
+          "notes": "Cybernews lists SBS as a free option in Australia for Tour of Türkiye, but this is NOT independently confirmed by Cyclingnews or SBS directly. Treat as uncertain — check SBS On Demand on race day. The YouTube stream (FloBikes channel) is a more reliable free option globally.",
           "source_url": "https://cybernews.com/stream-online/how-to-watch-tour-of-turkiye-2026-live-stream-for-free/"
         },
         {
           "region": "🇬🇧 UK & Ireland",
           "region_code": "GB",
-          "platform": "TNT Sports / HBO Max",
+          "platform": "TNT Sports / HBO Max — unverified",
           "free": false,
           "geo_restricted": true,
           "start_time_gmt": "08:00",
           "stream_url": "https://www.hbomax.com/sports",
-          "notes": "TNT Sports listed as UK broadcaster for Tour of Türkiye.",
+          "notes": "Cybernews lists TNT Sports as UK broadcaster, but this is not confirmed by Cyclingnews or Cycling Weekly. The free YouTube stream is a reliable alternative for UK viewers.",
           "source_url": "https://cybernews.com/stream-online/how-to-watch-tour-of-turkiye-2026-live-stream-for-free/"
         },
         {
@@ -258,14 +413,14 @@
           "geo_restricted": true,
           "start_time_gmt": "08:00",
           "stream_url": "https://www.trtspor.com.tr",
-          "notes": "TRT Sport provides domestic free coverage.",
+          "notes": "Domestic free coverage on TRT Sport (Turkish state broadcaster).",
           "source_url": null
         }
       ],
       "data_confidence": {
         "race_details": "high",
         "broadcasts": "medium",
-        "notes": "Stage 3 Marmaris → Kiran, 134km confirmed by Cyclingnews stages page. Stage 1 winner Tom Crabbe (Team Flanders-Baloise) confirmed by Cyclingnews headline and CyclingUpToDate results. Stage 2 winner Tom Crabbe confirmed by CyclingUpToDate results article. Start time approximate — Tour of Türkiye stage start times typically 09:00-11:00 local (CEST equivalent used here). Broadcast details: FloBikes USA/CA, SBS Australia, TNT Sports UK confirmed from Stage 1 guides."
+        "notes": "Stage 3 Marmaris → Kiran, 134km confirmed by Cyclingnews stages page. Stage 1 winner Tom Crabbe (Team Flanders-Baloise) confirmed. Stage 2 winner Tom Crabbe confirmed. KEY BROADCAST UPDATE: Tour of Türkiye stages 1 and 2 were streamed LIVE on FloBikes' official YouTube channel (confirmed by YouTube URLs found in search results). This is the most accessible free stream globally. FloBikes (paid, full commentary) for US/CA confirmed. SBS Australia listed by cybernews but not independently confirmed — flagged as uncertain. TNT Sports UK listed by cybernews but not confirmed."
       }
     }
   ],
@@ -321,7 +476,12 @@
         "notes": "Cyclingnews says Pogačar had 'four wins from five race days, only miss being defeat at Paris-Roubaix.' Flèche Wallonne was won by Seixas, not Pogačar — the Cyclingnews article refers to his broader spring. His actual race count includes Strade, MSR, Flanders, Roubaix, LBL = 5 race days."
       },
       "vollering_2026_spring_record": {
-        "wins": ["Omloop Het Nieuwsblad", "Tour of Flanders", "La Flèche Wallonne Femmes", "Liège-Bastogne-Liège Femmes"],
+        "wins": [
+          "Omloop Het Nieuwsblad",
+          "Tour of Flanders",
+          "La Flèche Wallonne Femmes",
+          "Liège-Bastogne-Liège Femmes"
+        ],
         "notes": "Four Classics wins this spring. Historic."
       }
     },
@@ -344,7 +504,7 @@
       "Tour de Romandie distance: PCS result page shows 3.2km; IDL and CyclingUpToDate previews say 3.1km; cyclingfantasy shows 3.17km; cyclingstage and domestique say 3.2km. Using 3.2km per PCS and most sources.",
       "Tour de Romandie broadcast window: Cycling archives says 'prologue broadcast in full from 16:00 CET on April 28' — this is 16:00 CEST. Start time per PCS is 15:28 CEST (13:28 UTC). Broadcast begins ~32 minutes after first rider rolls out. UK broadcast via TNT Sports confirmed but exact BST timing not found — using 14:00 UTC (16:00 CEST) as broadcast start per cycling archives.",
       "Tour of Türkiye Stage 3 start time: Not confirmed from search results. Using approximate 11:00 CEST based on Stage 1 being at 10:00 CEST and typical Turkish race timing.",
-      "Crabbe Stage 1 nationality: described as 'Belgian 20-year-old' in Cyclingnews stages page. Team Flanders-Baloise confirmed.",
+      "BROADCAST CORRECTIONS: (1) Tour de Romandie: removed erroneous SBS Australia claim. Cyclingnews 2026 guide explicitly states 'no Australian channels have picked up Tour de Romandie.' Added L'Equipe France. (2) Tour of Türkiye: Added FloBikes YouTube channel as free global live stream — confirmed by YouTube search results showing Stage 1 and Stage 2 streamed on FloBikes YouTube. SBS Australia for Turkey now flagged as 'unverified' rather than confirmed.",
       "Pogačar's Flèche Wallonne note in season context: Cyclingnews says 'four wins from five race days, only miss being defeat at Paris-Roubaix' — this counts Strade, MSR, Flanders, and LBL (4 wins), not Flèche which was won by Seixas. The cyclingnews quote is consistent with Pogačar not racing Flèche (he did race it per Cyclingnews LBL article saying 'back-to-back Mur de Huy' but this conflicts with the Flèche result showing Seixas as winner). Flagging for re-verification: the Cyclingnews LBL article about Pogačar says 'La Flèche Wallonne back-to-back' which would imply he won it — but our Flèche file clearly has Seixas as winner. This may be an error in the cycling archives preview article attributing Pogačar's 2025 AND 2026 Flèche — his 2025 Flèche win was confirmed; 2026 Flèche was won by Seixas.",
       "No other 1.1/2.1+ races found for April 28 besides Tour de Romandie Prologue and Tour of Türkiye Stage 3. Cross-referenced against Cyclingnews calendar and Cyclingstage.com (latest addition April 26: Tour de Romandie route)."
     ]
