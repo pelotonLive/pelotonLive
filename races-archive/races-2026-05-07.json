@@ -1,0 +1,189 @@
+{
+  "generated_at": "2026-05-07T10:00:00Z",
+  "date": "2026-05-07",
+  "races": [
+    {
+      "id": "vuelta-espana-femenina-2026-stage-5",
+      "name": "La Vuelta Femenina by Carrefour.es — Stage 5",
+      "date": "2026-05-07",
+      "status": "upcoming",
+      "edition": "4th (modern)",
+      "category": "2.WWT",
+      "gender": "women",
+      "race_type": "stage",
+      "stage_number": 5,
+      "stage_race_name": "La Vuelta Femenina by Carrefour.es",
+      "country": "ES",
+      "country_flag": "🇪🇸",
+      "distance_km": 119.6,
+      "terrain": ["Flat", "Sprint"],
+      "start_town": "León",
+      "finish_town": "Astorga",
+      "finish_type": "Bunch sprint expected",
+      "start_time_local": "13:55 CEST",
+      "start_time_utc": "11:55",
+      "finish_time_local": "~16:30 CEST",
+      "description": "Stage 5 of 7 of La Vuelta Femenina — the flattest day of the race and almost certainly a sprint. Running 119.6km from León to Astorga with just 1,146m of climbing across two Cat-3 climbs sitting in the first 60km. The final approach to Astorga is flat, setting up a bunch sprint in a race with relatively few pure sprinters. GC leader Lotte Kopecky (SD Worx-Protime) took red on Stage 4 with a perfectly-timed sprint win in Antas de Ulla, adding bonus seconds to move to the top. Stage 3 solo win went to Cédrine Kerbaol (EF Education-Oatly); Shari Bossuyt (AG Insurance-Soudal) won Stage 2 in a dramatic sprint. Noemi Rüegg (EF Education-Oatly) won the punchy opener. Several riders have already abandoned the race. The decisive mountain stages are still to come: Stage 6 and the Angliru finale on Stage 7 (Saturday, May 9).",
+      "gc_leader": "Lotte Kopecky (SD Worx-Protime)",
+      "gc_top5_note": "Kopecky leads after Stage 4 sprint win; exact gaps TBC. Key GC threats: Pauline Ferrand-Prévot (Visma|LaBike), Kasia Niewiadoma (Canyon-SRAM), Anna van der Breggen (SD Worx-Protime), Cédrine Kerbaol (EF Education-Oatly).",
+      "stage_winners_so_far": [
+        "S1: Noemi Rüegg (EF Education-Oatly)",
+        "S2: Shari Bossuyt (AG Insurance-Soudal)",
+        "S3: Cédrine Kerbaol (EF Education-Oatly) — solo",
+        "S4: Lotte Kopecky (SD Worx-Protime) — sprint"
+      ],
+      "pcs_url": "https://www.procyclingstats.com/race/vuelta-espana-femenina/2026/stage-5",
+      "official_site": "https://www.lavueltafemenina.es/en",
+      "broadcasts": [
+        {
+          "region": "🇬🇧 UK & Ireland",
+          "region_code": "GB",
+          "platform": "TNT Sports / HBO Max",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_local": "12:55 BST",
+          "start_time_utc": "11:55",
+          "stream_url": "https://www.hbomax.com",
+          "notes": "All 7 stages live on TNT Sports 1 and HBO Max. HBO Max streaming from £25.99/mo.",
+          "source_url": "https://www.cyclingweekly.com/racing/watch-la-vuelta-femenina-2026-everything-you-need-to-live-stream-the-spanish-grand-tour"
+        },
+        {
+          "region": "🇺🇸 USA",
+          "region_code": "US",
+          "platform": "Peacock (NBC Sports)",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_local": "07:55 EDT",
+          "start_time_utc": "11:55",
+          "stream_url": "https://www.peacocktv.com",
+          "notes": "Peacock Premium from $10.99/month. Sole US broadcaster for La Vuelta Femenina.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/watch-la-vuelta-femenina-2026/"
+        },
+        {
+          "region": "🇨🇦 Canada",
+          "region_code": "CA",
+          "platform": "FloBikes",
+          "free": false,
+          "geo_restricted": true,
+          "start_time_local": "07:55 EDT",
+          "start_time_utc": "11:55",
+          "stream_url": "https://www.flobikes.com",
+          "notes": "FloBikes subscription CA$39.99/month. All stages live.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/watch-la-vuelta-femenina-2026/"
+        },
+        {
+          "region": "🇦🇺 Australia",
+          "region_code": "AU",
+          "platform": "SBS / SBS On Demand",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_local": "21:55 AEST",
+          "start_time_utc": "11:55",
+          "stream_url": "https://www.sbs.com.au/ondemand",
+          "notes": "Free with registration on SBS On Demand. All stages aired live.",
+          "source_url": "https://www.cyclingweekly.com/racing/watch-la-vuelta-femenina-2026-everything-you-need-to-live-stream-the-spanish-grand-tour"
+        },
+        {
+          "region": "🇪🇸 Spain",
+          "region_code": "ES",
+          "platform": "RTVE Play",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_local": "13:55 CEST",
+          "start_time_utc": "11:55",
+          "stream_url": "https://www.rtve.es/play",
+          "notes": "Free live coverage on RTVE Play for Spanish viewers.",
+          "source_url": "https://www.cyclingweekly.com/racing/watch-la-vuelta-femenina-2026-everything-you-need-to-live-stream-the-spanish-grand-tour"
+        },
+        {
+          "region": "🇧🇪 Belgium",
+          "region_code": "BE",
+          "platform": "Sporza / Auvio (RTBF)",
+          "free": true,
+          "geo_restricted": true,
+          "start_time_local": "~15:00 CEST",
+          "start_time_utc": "~13:00",
+          "stream_url": "https://www.sporza.be",
+          "notes": "Sporza (Dutch) and Auvio/RTBF (French) free for Belgian viewers. Late-race coverage.",
+          "source_url": "https://veloracycling.com/races/vuelta-espana-femenina-by-carrefour-es-2026/live-stream"
+        },
+        {
+          "region": "🌍 International (Eurosport)",
+          "region_code": "INT",
+          "platform": "Eurosport / Discovery+",
+          "free": false,
+          "geo_restricted": false,
+          "start_time_local": "Variable by region",
+          "start_time_utc": "11:55",
+          "stream_url": "https://www.discoveryplus.com",
+          "notes": "Eurosport carries the Vuelta Femenina across most European markets.",
+          "source_url": "https://www.cyclingnews.com/cycling-culture/streaming/watch-la-vuelta-femenina-2026/"
+        }
+      ]
+    },
+    {
+      "id": "tour-of-hellas-2026-stage-2",
+      "name": "ΔΕΗ Tour of Hellas — Stage 2",
+      "date": "2026-05-07",
+      "status": "live",
+      "edition": "21st",
+      "category": "2.1",
+      "gender": "men",
+      "race_type": "stage",
+      "stage_number": 2,
+      "stage_race_name": "ΔΕΗ Tour of Hellas",
+      "country": "GR",
+      "country_flag": "🇬🇷",
+      "distance_km": 157.5,
+      "terrain": ["Climbing", "Puncheur"],
+      "start_town": "Karpenisi",
+      "finish_town": "Larissa",
+      "finish_type": "Reduced sprint or select group",
+      "start_time_local": "~12:00 EEST",
+      "start_time_utc": "~09:00",
+      "finish_time_local": "~16:30 EEST",
+      "description": "Stage 2 of the 21st ΔΕΗ Tour of Hellas — the premier stage race in Greece, running May 6–10 from Ioannina to Athens (Syntagma). Stage 2 departs from Karpenisi, a mountain town in central Greece (~960m altitude), and descends and rolls 157.5km to Larissa in the Thessaly plain, with 1,601m of climbing. The initial kilometres out of Karpenisi will be climbing before the route drops toward the coast and then east across the Thessalian plain. GC leader Mathis Avondts (Azerion/Villa Valkenburg, BEL) took Stage 1 in a sprint in Agrinio after breakaway survivor Jan-Willem van Schip (also Azerion) was caught with 2km to go. Georgios Bouglas (Burgos Burpellet BH, GRE) was an impressive 2nd — the best finish for a Greek rider since the race's revival. 118 riders from 18 teams: mix of ProTeams, Continental, and national squads. No broadcast beyond Greek national TV and online streams.",
+      "gc_leader": "Mathis Avondts (Azerion / Villa Valkenburg)",
+      "stage_winners_so_far": [
+        "S1: Mathis Avondts (Azerion / Villa Valkenburg) — sprint, Ioannina → Agrinio 171.6km"
+      ],
+      "favourite_riders": [
+        "Mathis Avondts (Azerion / Villa Valkenburg) — GC leader",
+        "Georgios Bouglas (Burgos Burpellet BH) — 2nd on S1, Greek favourite",
+        "Jesús Herrada (Burgos Burpellet BH)",
+        "Merhawi Kudus (Burgos Burpellet BH)",
+        "Txomin Juaristi (Euskaltel-Euskadi)",
+        "Jan-Willem van Schip (Azerion / Villa Valkenburg)"
+      ],
+      "teams_note": "18 teams — no WorldTeams. Mix of ProTeams (Burgos Burpellet BH, Euskaltel-Euskadi, MBH Bank CSB Telecom Fort, Solution Tech NIPPO Rali), Continental (Azerion/Villa Valkenburg, ATT Investments, BIKE AID, Team Novo Nordisk, Team Storck-MRW Bau, Unibet Rose Rockets) and national squads (Greece, Cyprus).",
+      "pcs_url": "https://www.procyclingstats.com/race/tour-of-hellas/2026/stage-2",
+      "official_site": "https://www.hellas-tour.gr/portal/en/",
+      "broadcasts": [
+        {
+          "region": "🇬🇷 Greece",
+          "region_code": "GR",
+          "platform": "ERT / hellas-tour.gr live",
+          "free": true,
+          "geo_restricted": false,
+          "start_time_local": "~12:00 EEST",
+          "start_time_utc": "~09:00",
+          "stream_url": "https://www.hellas-tour.gr/portal/en/",
+          "notes": "Greek national broadcaster ERT and the official race website carry the race live. Stream may be globally accessible.",
+          "source_url": "https://www.hellas-tour.gr/portal/en/"
+        },
+        {
+          "region": "🌍 International (online)",
+          "region_code": "INT",
+          "platform": "YouTube / Tiz-Cycling",
+          "free": true,
+          "geo_restricted": false,
+          "start_time_local": "~12:00 EEST",
+          "start_time_utc": "~09:00",
+          "stream_url": "https://www.youtube.com/@tourofhellas",
+          "notes": "Full stage replays available on YouTube same day (Tiz-Cycling). Live stream may be available via race YouTube channel.",
+          "source_url": "https://tiz-cycling.tv/video/tour-of-hellas-2026-stage-1-full-stage/"
+        }
+      ]
+    }
+  ]
+}
